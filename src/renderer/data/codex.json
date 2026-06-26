@@ -1,0 +1,101 @@
+[
+  {
+    "app": "codex",
+    "category": "Session",
+    "action": "Toggle Plan mode",
+    "keys": ["Shift+Tab"],
+    "description": "Switch the current conversation in or out of Plan mode before implementation.",
+    "tags": ["plan", "planning", "mode", "toggle", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/learn/best-practices"
+  },
+  {
+    "app": "codex",
+    "category": "Session",
+    "action": "Clear terminal screen",
+    "keys": ["Ctrl+L"],
+    "description": "Clear the terminal screen while keeping the current conversation.",
+    "tags": ["clear", "screen", "terminal", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "Session",
+    "action": "Copy latest output",
+    "keys": ["Ctrl+O"],
+    "description": "Copy the latest completed Codex output.",
+    "tags": ["copy", "output", "clipboard", "response", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "Session",
+    "action": "Exit session",
+    "keys": ["Ctrl+C"],
+    "description": "Close the interactive CLI session.",
+    "tags": ["exit", "quit", "close", "session", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "Composer",
+    "action": "Queue follow-up input",
+    "keys": ["Tab"],
+    "description": "Queue follow-up text, commands, or shell commands for the next turn while Codex is running.",
+    "tags": ["queue", "follow up", "running", "composer", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "Composer",
+    "action": "Previous draft",
+    "keys": ["Up"],
+    "description": "Move to the previous composer draft.",
+    "tags": ["draft", "history", "composer", "navigation", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "Composer",
+    "action": "Next draft",
+    "keys": ["Down"],
+    "description": "Move to the next composer draft.",
+    "tags": ["draft", "history", "composer", "navigation", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "Composer",
+    "action": "Open prompt editor",
+    "keys": ["Ctrl+G"],
+    "description": "Open the prompt input in the configured external editor.",
+    "tags": ["editor", "prompt", "visual", "editor env", "composer", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "History",
+    "action": "Search prompt history",
+    "keys": ["Ctrl+R"],
+    "description": "Search prompt history from the composer.",
+    "tags": ["search", "prompt", "history", "composer", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "History",
+    "action": "Accept history match",
+    "keys": ["Enter"],
+    "description": "Accept the selected prompt-history match.",
+    "tags": ["accept", "select", "prompt", "history", "search", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  },
+  {
+    "app": "codex",
+    "category": "History",
+    "action": "Cancel history search",
+    "keys": ["Esc"],
+    "description": "Cancel prompt-history search and return to the composer.",
+    "tags": ["cancel", "escape", "prompt", "history", "search", "keyboard", "tui", "cli"],
+    "sourceUrl": "https://developers.openai.com/codex/cli/features"
+  }
+]

@@ -1,0 +1,416 @@
+[
+  {
+    "app": "vscode",
+    "category": "General",
+    "action": "Show Command Palette",
+    "keys": ["Shift+Cmd+P", "F1"],
+    "description": "Open the command palette.",
+    "tags": ["command palette", "commands", "launcher"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "General",
+    "action": "Quick Open",
+    "keys": ["Cmd+P"],
+    "description": "Quickly open files by name.",
+    "tags": ["file", "search", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "General",
+    "action": "New window",
+    "keys": ["Shift+Cmd+N"],
+    "description": "Create a new VS Code window.",
+    "tags": ["window", "workspace"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "General",
+    "action": "Open Keyboard Shortcuts",
+    "keys": ["Cmd+K Cmd+S"],
+    "description": "Open the Keyboard Shortcuts editor.",
+    "tags": ["settings", "keybindings", "preferences"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Cut line",
+    "keys": ["Cmd+X"],
+    "description": "Cut the current line when there is no selection.",
+    "tags": ["edit", "line", "clipboard"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Copy line",
+    "keys": ["Cmd+C"],
+    "description": "Copy the current line when there is no selection.",
+    "tags": ["edit", "line", "clipboard"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Move line",
+    "keys": ["Option+Down", "Option+Up"],
+    "description": "Move the current line down or up.",
+    "tags": ["edit", "line", "move"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Copy line",
+    "keys": ["Shift+Option+Down", "Shift+Option+Up"],
+    "description": "Copy the current line down or up.",
+    "tags": ["edit", "line", "duplicate"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Delete line",
+    "keys": ["Shift+Cmd+K"],
+    "description": "Delete the current line.",
+    "tags": ["edit", "line", "delete"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Insert line",
+    "keys": ["Cmd+Enter", "Shift+Cmd+Enter"],
+    "description": "Insert a new line below or above.",
+    "tags": ["edit", "line", "insert"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Jump to matching bracket",
+    "keys": ["Shift+Cmd+Backslash"],
+    "description": "Move to the matching bracket.",
+    "tags": ["bracket", "navigation", "code"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Toggle line comment",
+    "keys": ["Cmd+Slash"],
+    "description": "Toggle a line comment.",
+    "tags": ["comment", "code", "edit"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Toggle block comment",
+    "keys": ["Shift+Option+A"],
+    "description": "Toggle a block comment.",
+    "tags": ["comment", "code", "edit"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Toggle word wrap",
+    "keys": ["Option+Z"],
+    "description": "Toggle editor word wrapping.",
+    "tags": ["view", "editor", "wrap"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Insert cursor above or below",
+    "keys": ["Option+Cmd+Up", "Option+Cmd+Down"],
+    "description": "Add a cursor above or below the current cursor.",
+    "tags": ["multi cursor", "selection", "edit"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Undo last cursor operation",
+    "keys": ["Cmd+U"],
+    "description": "Undo the last cursor operation.",
+    "tags": ["multi cursor", "undo", "selection"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Select current line",
+    "keys": ["Cmd+L"],
+    "description": "Select the current line.",
+    "tags": ["selection", "line"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Select all occurrences",
+    "keys": ["Shift+Cmd+L", "Cmd+F2"],
+    "description": "Select all occurrences of the current selection or word.",
+    "tags": ["selection", "occurrences", "multi cursor"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Search",
+    "action": "Find",
+    "keys": ["Cmd+F"],
+    "description": "Open find in the current editor.",
+    "tags": ["search", "find"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Search",
+    "action": "Replace",
+    "keys": ["Option+Cmd+F"],
+    "description": "Open replace in the current editor.",
+    "tags": ["search", "replace"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Search",
+    "action": "Find next or previous",
+    "keys": ["Cmd+G", "Shift+Cmd+G"],
+    "description": "Move to the next or previous find match.",
+    "tags": ["search", "find", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Search",
+    "action": "Add selection to next find match",
+    "keys": ["Cmd+D"],
+    "description": "Add the next matching occurrence to the selection.",
+    "tags": ["selection", "search", "multi cursor"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Trigger suggestion",
+    "keys": ["Ctrl+Space", "Cmd+I"],
+    "description": "Trigger editor suggestions.",
+    "tags": ["intellisense", "completion", "language"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Format document",
+    "keys": ["Shift+Option+F"],
+    "description": "Format the current document.",
+    "tags": ["format", "language", "code"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Go to Definition",
+    "keys": ["F12"],
+    "description": "Go to the symbol definition.",
+    "tags": ["definition", "navigation", "language"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Peek Definition",
+    "keys": ["Option+F12"],
+    "description": "Peek at the symbol definition inline.",
+    "tags": ["definition", "peek", "language"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Quick Fix",
+    "keys": ["Cmd+Period"],
+    "description": "Open quick fixes and code actions.",
+    "tags": ["quick fix", "code action", "language"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Rename Symbol",
+    "keys": ["F2"],
+    "description": "Rename the selected symbol.",
+    "tags": ["rename", "refactor", "language"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Show all symbols",
+    "keys": ["Cmd+T"],
+    "description": "Search workspace symbols.",
+    "tags": ["symbols", "workspace", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Go to Line",
+    "keys": ["Ctrl+G"],
+    "description": "Go to a line number.",
+    "tags": ["line", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Go to Symbol",
+    "keys": ["Shift+Cmd+O"],
+    "description": "Go to a symbol in the current file.",
+    "tags": ["symbol", "file", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Show Problems panel",
+    "keys": ["Shift+Cmd+M"],
+    "description": "Show the Problems panel.",
+    "tags": ["problems", "diagnostics", "panel"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Go back or forward",
+    "keys": ["Ctrl+Minus", "Ctrl+Shift+Minus"],
+    "description": "Navigate back or forward in editor history.",
+    "tags": ["history", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Editor Management",
+    "action": "Split editor",
+    "keys": ["Cmd+Backslash"],
+    "description": "Split the editor.",
+    "tags": ["editor", "split", "layout"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Editor Management",
+    "action": "Focus editor group",
+    "keys": ["Cmd+1", "Cmd+2", "Cmd+3"],
+    "description": "Focus the first, second, or third editor group.",
+    "tags": ["editor", "focus", "group"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "New File",
+    "keys": ["Cmd+N"],
+    "description": "Create a new file.",
+    "tags": ["file", "new"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Save",
+    "keys": ["Cmd+S"],
+    "description": "Save the current file.",
+    "tags": ["file", "save"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Reopen closed editor",
+    "keys": ["Shift+Cmd+T"],
+    "description": "Reopen the most recently closed editor.",
+    "tags": ["file", "editor", "restore"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Toggle Sidebar",
+    "keys": ["Cmd+B"],
+    "description": "Show or hide the primary sidebar.",
+    "tags": ["view", "sidebar", "layout"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Show Explorer",
+    "keys": ["Shift+Cmd+E"],
+    "description": "Show Explorer or focus it.",
+    "tags": ["view", "explorer", "sidebar"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Show Search",
+    "keys": ["Shift+Cmd+F"],
+    "description": "Show workspace search.",
+    "tags": ["view", "search", "sidebar"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Zen Mode",
+    "keys": ["Cmd+K Z"],
+    "description": "Toggle Zen Mode.",
+    "tags": ["view", "focus", "zen"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Debug",
+    "action": "Start or continue debugging",
+    "keys": ["F5"],
+    "description": "Start or continue a debug session.",
+    "tags": ["debug", "run"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Debug",
+    "action": "Step over",
+    "keys": ["F10"],
+    "description": "Step over while debugging.",
+    "tags": ["debug", "step"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Terminal",
+    "action": "Show integrated terminal",
+    "keys": ["Ctrl+Backquote"],
+    "description": "Show the integrated terminal.",
+    "tags": ["terminal", "panel"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  },
+  {
+    "app": "vscode",
+    "category": "Terminal",
+    "action": "Create new terminal",
+    "keys": ["Ctrl+Shift+Backquote"],
+    "description": "Create a new integrated terminal.",
+    "tags": ["terminal", "new"],
+    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+  }
+]

@@ -1,0 +1,25 @@
+import codexData from "./codex.json";
+import ghosttyData from "./ghostty.json";
+import macosData from "./macos.json";
+import vscodeData from "./vscode.json";
+import zshData from "./zsh.json";
+import type { AppId, ShortcutEntry } from "../../shared/types";
+
+export const appOrder: Exclude<AppId, "all">[] = ["macos", "zsh", "ghostty", "vscode", "codex"];
+
+export const appLabels: Record<AppId, string> = {
+  all: "All apps",
+  macos: "macOS",
+  zsh: "zsh",
+  ghostty: "Ghostty",
+  vscode: "VS Code",
+  codex: "Codex CLI"
+};
+
+export const shortcuts: ShortcutEntry[] = [
+  ...(macosData as ShortcutEntry[]),
+  ...(zshData as ShortcutEntry[]),
+  ...(ghosttyData as ShortcutEntry[]),
+  ...(vscodeData as ShortcutEntry[]),
+  ...(codexData as ShortcutEntry[])
+];

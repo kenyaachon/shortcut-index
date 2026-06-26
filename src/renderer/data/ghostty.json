@@ -1,0 +1,326 @@
+[
+  {
+    "app": "ghostty",
+    "category": "Config",
+    "action": "Open config",
+    "keys": ["Cmd+Comma"],
+    "description": "Open the Ghostty configuration file in the default editor.",
+    "tags": ["config", "settings", "preferences"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Config",
+    "action": "Reload config",
+    "keys": ["CtrlOrCmd+Shift+Comma"],
+    "description": "Reload the Ghostty configuration.",
+    "tags": ["config", "reload"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Clipboard",
+    "action": "Copy selection",
+    "keys": ["Cmd+C"],
+    "description": "Copy the current terminal selection to the clipboard.",
+    "tags": ["copy", "clipboard", "selection"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Clipboard",
+    "action": "Paste clipboard",
+    "keys": ["Cmd+V"],
+    "description": "Paste the contents of the clipboard into the terminal.",
+    "tags": ["paste", "clipboard"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Clipboard",
+    "action": "Paste selection clipboard",
+    "keys": ["Cmd+Shift+V"],
+    "description": "Paste from the selection clipboard.",
+    "tags": ["paste", "clipboard", "selection"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Font",
+    "action": "Increase font size",
+    "keys": ["Cmd+Plus", "Cmd+Equal"],
+    "description": "Increase terminal font size.",
+    "tags": ["font", "zoom", "display"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Font",
+    "action": "Decrease font size",
+    "keys": ["Cmd+Minus"],
+    "description": "Decrease terminal font size.",
+    "tags": ["font", "zoom", "display"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Font",
+    "action": "Reset font size",
+    "keys": ["Cmd+0"],
+    "description": "Reset terminal font size to the configured size.",
+    "tags": ["font", "zoom", "display"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Tabs",
+    "action": "New tab",
+    "keys": ["Cmd+T"],
+    "description": "Open a new tab.",
+    "tags": ["tab", "new"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Tabs",
+    "action": "Previous or next tab",
+    "keys": ["Ctrl+Shift+Tab", "Ctrl+Tab", "Cmd+Shift+LeftBracket", "Cmd+Shift+RightBracket"],
+    "description": "Move to the previous or next tab.",
+    "tags": ["tab", "navigation"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Tabs",
+    "action": "Go to numbered tab",
+    "keys": ["Cmd+1", "Cmd+2", "Cmd+3", "Cmd+4", "Cmd+5", "Cmd+6", "Cmd+7", "Cmd+8"],
+    "description": "Go to a numbered tab, starting at 1.",
+    "tags": ["tab", "navigation", "number"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Tabs",
+    "action": "Go to last tab",
+    "keys": ["Cmd+9"],
+    "description": "Go to the last tab.",
+    "tags": ["tab", "navigation"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Windows",
+    "action": "New window",
+    "keys": ["Cmd+N"],
+    "description": "Open a new window.",
+    "tags": ["window", "new"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Windows",
+    "action": "Close surface",
+    "keys": ["Cmd+W"],
+    "description": "Close the current surface, such as a window, tab, or split.",
+    "tags": ["window", "tab", "close"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Windows",
+    "action": "Close tab",
+    "keys": ["Option+Cmd+W"],
+    "description": "Close the current tab and its splits.",
+    "tags": ["tab", "close"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Windows",
+    "action": "Close window",
+    "keys": ["Shift+Cmd+W"],
+    "description": "Close the current window.",
+    "tags": ["window", "close"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Windows",
+    "action": "Quit Ghostty",
+    "keys": ["Cmd+Q"],
+    "description": "Quit Ghostty.",
+    "tags": ["quit", "app"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Layout",
+    "action": "New split right",
+    "keys": ["Cmd+D"],
+    "description": "Create a new split to the right.",
+    "tags": ["split", "pane", "layout"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Layout",
+    "action": "New split down",
+    "keys": ["Shift+Cmd+D"],
+    "description": "Create a new split below.",
+    "tags": ["split", "pane", "layout"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Layout",
+    "action": "Focus split",
+    "keys": ["Cmd+LeftBracket", "Cmd+RightBracket", "Option+Cmd+Up", "Option+Cmd+Down", "Option+Cmd+Left", "Option+Cmd+Right"],
+    "description": "Focus the previous, next, or directional split.",
+    "tags": ["split", "pane", "focus"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Layout",
+    "action": "Resize split",
+    "keys": ["Ctrl+Cmd+Up", "Ctrl+Cmd+Down", "Ctrl+Cmd+Left", "Ctrl+Cmd+Right"],
+    "description": "Resize the current split by 10 pixels in a direction.",
+    "tags": ["split", "pane", "resize"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Layout",
+    "action": "Equalize splits",
+    "keys": ["Ctrl+Cmd+Equal"],
+    "description": "Equalize the size of all splits in the current window.",
+    "tags": ["split", "pane", "layout"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Layout",
+    "action": "Toggle split zoom",
+    "keys": ["Shift+Cmd+Enter"],
+    "description": "Zoom or unzoom the current split.",
+    "tags": ["split", "zoom", "layout"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Search",
+    "action": "Start search",
+    "keys": ["Cmd+F"],
+    "description": "Open terminal search.",
+    "tags": ["search", "find"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Search",
+    "action": "Search selection",
+    "keys": ["Cmd+E"],
+    "description": "Start searching for the current selection.",
+    "tags": ["search", "selection"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Search",
+    "action": "End search",
+    "keys": ["Shift+Cmd+F", "Esc"],
+    "description": "End the current search and hide search UI.",
+    "tags": ["search", "close"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Search",
+    "action": "Navigate search results",
+    "keys": ["Cmd+G", "Shift+Cmd+G"],
+    "description": "Move to the next or previous search result.",
+    "tags": ["search", "navigation", "find"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Terminal",
+    "action": "Clear screen",
+    "keys": ["Cmd+K"],
+    "description": "Clear the screen and all scrollback.",
+    "tags": ["terminal", "screen", "clear"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Terminal",
+    "action": "Select all",
+    "keys": ["Cmd+A"],
+    "description": "Select all text on the screen.",
+    "tags": ["terminal", "selection"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Terminal",
+    "action": "Jump to prompt",
+    "keys": ["Cmd+Up", "Cmd+Down", "Shift+Cmd+Up", "Shift+Cmd+Down"],
+    "description": "Jump backward or forward by prompts.",
+    "tags": ["prompt", "shell integration", "navigation"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Terminal",
+    "action": "Toggle command palette",
+    "keys": ["Shift+Cmd+P"],
+    "description": "Open Ghostty's command palette.",
+    "tags": ["command palette", "commands"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Terminal",
+    "action": "Toggle full screen",
+    "keys": ["Cmd+Enter", "Ctrl+Cmd+F"],
+    "description": "Enter or exit full screen.",
+    "tags": ["fullscreen", "window", "display"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Terminal",
+    "action": "Toggle inspector",
+    "keys": ["Option+Cmd+I"],
+    "description": "Toggle the terminal inspector.",
+    "tags": ["inspector", "debug", "developer"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Text Editing",
+    "action": "Move to beginning or end of line",
+    "keys": ["Cmd+Left", "Cmd+Right"],
+    "description": "Send legacy line-start or line-end editing input to the shell.",
+    "tags": ["text", "shell", "cursor"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Text Editing",
+    "action": "Move by word",
+    "keys": ["Option+Left", "Option+Right"],
+    "description": "Send previous-word or next-word editing input to the shell.",
+    "tags": ["text", "shell", "cursor", "word"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  },
+  {
+    "app": "ghostty",
+    "category": "Text Editing",
+    "action": "Kill line left",
+    "keys": ["Cmd+Backspace"],
+    "description": "Send the legacy kill-line-left input to the shell.",
+    "tags": ["text", "shell", "delete", "kill"],
+    "sourceUrl": "https://ghostty.org/docs/config/keybind/reference"
+  }
+]

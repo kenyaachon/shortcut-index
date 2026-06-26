@@ -1,0 +1,272 @@
+[
+  {
+    "app": "zsh",
+    "category": "Navigation",
+    "action": "Beginning of line",
+    "keys": ["Ctrl+A"],
+    "description": "Move to the beginning of the line.",
+    "tags": ["zle", "emacs", "cursor", "line"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Navigation",
+    "action": "End of line",
+    "keys": ["Ctrl+E"],
+    "description": "Move to the end of the line.",
+    "tags": ["zle", "emacs", "cursor", "line"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Navigation",
+    "action": "Backward character",
+    "keys": ["Ctrl+B"],
+    "description": "Move backward one character.",
+    "tags": ["zle", "emacs", "cursor", "character"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Navigation",
+    "action": "Forward character",
+    "keys": ["Ctrl+F"],
+    "description": "Move forward one character.",
+    "tags": ["zle", "emacs", "cursor", "character"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Navigation",
+    "action": "Backward word",
+    "keys": ["Esc+B"],
+    "description": "Move to the beginning of the previous word.",
+    "tags": ["zle", "emacs", "cursor", "word"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Navigation",
+    "action": "Forward word",
+    "keys": ["Esc+F"],
+    "description": "Move forward one word.",
+    "tags": ["zle", "emacs", "cursor", "word"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "History",
+    "action": "Previous history line",
+    "keys": ["Ctrl+P", "Esc+[A"],
+    "description": "Move up a line or to the previous history event.",
+    "tags": ["zle", "history", "up"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "History",
+    "action": "Next history line",
+    "keys": ["Ctrl+N", "Esc+[B"],
+    "description": "Move down a line or to the next history event.",
+    "tags": ["zle", "history", "down"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "History",
+    "action": "Incremental search backward",
+    "keys": ["Ctrl+R"],
+    "description": "Search backward incrementally through history.",
+    "tags": ["zle", "history", "search"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "History",
+    "action": "Incremental search forward",
+    "keys": ["Ctrl+S", "Ctrl+X S"],
+    "description": "Search forward incrementally through history.",
+    "tags": ["zle", "history", "search"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "History",
+    "action": "History search backward",
+    "keys": ["Esc+P"],
+    "description": "Search backward for a history line beginning with the first word in the buffer.",
+    "tags": ["zle", "history", "search"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "History",
+    "action": "History search forward",
+    "keys": ["Esc+N"],
+    "description": "Search forward for a history line beginning with the first word in the buffer.",
+    "tags": ["zle", "history", "search"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "History",
+    "action": "Insert last word",
+    "keys": ["Esc+_", "Esc+."],
+    "description": "Insert the last word from the previous history event.",
+    "tags": ["zle", "history", "insert", "word"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Delete previous character",
+    "keys": ["Ctrl+H", "Backspace"],
+    "description": "Delete the character behind the cursor.",
+    "tags": ["zle", "delete", "character"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Kill previous word",
+    "keys": ["Ctrl+W", "Esc+Ctrl+H", "Esc+Backspace"],
+    "description": "Kill the word behind the cursor.",
+    "tags": ["zle", "kill", "word", "delete"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Kill current word",
+    "keys": ["Esc+D"],
+    "description": "Kill the current word.",
+    "tags": ["zle", "kill", "word", "delete"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Kill to end of line",
+    "keys": ["Ctrl+K"],
+    "description": "Kill from the cursor to the end of the line.",
+    "tags": ["zle", "kill", "line", "delete"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Kill whole line",
+    "keys": ["Ctrl+U"],
+    "description": "Kill the current line.",
+    "tags": ["zle", "kill", "line", "delete"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Yank",
+    "keys": ["Ctrl+Y"],
+    "description": "Insert the contents of the kill buffer at the cursor position.",
+    "tags": ["zle", "yank", "paste", "kill ring"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Yank pop",
+    "keys": ["Esc+Y"],
+    "description": "Rotate the kill ring after yanking and insert the new top item.",
+    "tags": ["zle", "yank", "kill ring"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Transpose characters",
+    "keys": ["Ctrl+T"],
+    "description": "Exchange nearby characters around the cursor.",
+    "tags": ["zle", "transpose", "characters"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Transpose words",
+    "keys": ["Esc+T"],
+    "description": "Exchange the current word with the one before it.",
+    "tags": ["zle", "transpose", "word"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Editing",
+    "action": "Quote next character",
+    "keys": ["Ctrl+V"],
+    "description": "Insert the next typed character literally.",
+    "tags": ["zle", "quote", "literal", "insert"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Screen",
+    "action": "Clear screen",
+    "keys": ["Ctrl+L", "Esc+Ctrl+L"],
+    "description": "Clear the screen and redraw the prompt.",
+    "tags": ["zle", "screen", "clear"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Command",
+    "action": "Execute named command",
+    "keys": ["Esc+X"],
+    "description": "Read the name of an editor command and execute it.",
+    "tags": ["zle", "command", "widget"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Command",
+    "action": "Redo last named command",
+    "keys": ["Esc+Z"],
+    "description": "Redo the last editor command executed by name.",
+    "tags": ["zle", "command", "widget"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Vi Mode",
+    "action": "Enter vi command mode",
+    "keys": ["Ctrl+X Ctrl+V", "Esc"],
+    "description": "Select the vicmd keymap.",
+    "tags": ["zle", "vi", "mode"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Vi Mode",
+    "action": "Vi insert mode",
+    "keys": ["I", "A", "i", "a"],
+    "description": "Enter insert mode at the cursor, after the cursor, beginning of line, or end of line.",
+    "tags": ["zle", "vi", "insert"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Vi Mode",
+    "action": "Vi delete and change",
+    "keys": ["d", "c", "D", "C", "x"],
+    "description": "Delete, change, or remove text in vi command mode.",
+    "tags": ["zle", "vi", "delete", "change"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  },
+  {
+    "app": "zsh",
+    "category": "Vi Mode",
+    "action": "Vi yank and put",
+    "keys": ["y", "Y", "p", "P"],
+    "description": "Copy or paste text using the vi kill buffer commands.",
+    "tags": ["zle", "vi", "yank", "paste"],
+    "sourceUrl": "https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html"
+  }
+]

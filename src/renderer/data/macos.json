@@ -1,0 +1,308 @@
+[
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Cut selected item",
+    "keys": ["Cmd+X"],
+    "description": "Cut the selected item and copy it to the clipboard.",
+    "tags": ["clipboard", "edit", "common"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Copy selected item",
+    "keys": ["Cmd+C"],
+    "description": "Copy the selected item to the clipboard.",
+    "tags": ["clipboard", "edit", "common"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Paste clipboard contents",
+    "keys": ["Cmd+V"],
+    "description": "Paste the contents of the clipboard into the current document or app.",
+    "tags": ["clipboard", "edit", "common"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Undo",
+    "keys": ["Cmd+Z"],
+    "description": "Undo the previous command.",
+    "tags": ["edit", "history", "common"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Redo",
+    "keys": ["Shift+Cmd+Z"],
+    "description": "Redo the command that was just undone.",
+    "tags": ["edit", "history", "common"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Select all",
+    "keys": ["Cmd+A"],
+    "description": "Select all items in the active document or window.",
+    "tags": ["selection", "edit", "common"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Find",
+    "keys": ["Cmd+F"],
+    "description": "Find items in a document or open a Find window.",
+    "tags": ["search", "find", "common"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Find again",
+    "keys": ["Cmd+G", "Shift+Cmd+G"],
+    "description": "Find the next or previous occurrence of the previously searched item.",
+    "tags": ["search", "find", "navigation"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Hide front app",
+    "keys": ["Cmd+H"],
+    "description": "Hide the windows of the front app.",
+    "tags": ["window", "app", "visibility"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Hide other apps",
+    "keys": ["Option+Cmd+H"],
+    "description": "Keep the front app visible and hide all other apps.",
+    "tags": ["window", "app", "visibility"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Minimize front window",
+    "keys": ["Cmd+M"],
+    "description": "Minimize the front window to the Dock.",
+    "tags": ["window", "dock"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Open selected item",
+    "keys": ["Cmd+O"],
+    "description": "Open the selected item or show the Open dialog.",
+    "tags": ["file", "open"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Print",
+    "keys": ["Cmd+P"],
+    "description": "Open the print dialog for the current document.",
+    "tags": ["file", "print"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Quit current app",
+    "keys": ["Cmd+Q"],
+    "description": "Quit the current app.",
+    "tags": ["app", "quit"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Common",
+    "action": "Open app settings",
+    "keys": ["Cmd+Comma"],
+    "description": "Open settings or preferences for the front app.",
+    "tags": ["settings", "preferences"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Force quit apps",
+    "keys": ["Option+Cmd+Esc"],
+    "description": "Open the Force Quit Applications window.",
+    "tags": ["system", "app", "quit"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Show Spotlight",
+    "keys": ["Cmd+Space"],
+    "description": "Show or hide the Spotlight search field.",
+    "tags": ["search", "spotlight", "launcher"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Show Character Viewer",
+    "keys": ["Ctrl+Cmd+Space", "Fn+E"],
+    "description": "Open the Character Viewer for emoji and symbols.",
+    "tags": ["emoji", "symbols", "text"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Toggle full screen",
+    "keys": ["Ctrl+Cmd+F"],
+    "description": "Enter or exit full screen for apps that support it.",
+    "tags": ["window", "fullscreen"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Quick Look",
+    "keys": ["Space"],
+    "description": "Preview the selected item using Quick Look.",
+    "tags": ["finder", "preview", "quick look"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Switch app",
+    "keys": ["Cmd+Tab"],
+    "description": "Switch to the next most recently used app.",
+    "tags": ["app", "window", "navigation"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Switch app window",
+    "keys": ["Cmd+Backquote"],
+    "description": "Switch between windows of the current app.",
+    "tags": ["window", "navigation"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Screenshot and screen recording tools",
+    "keys": ["Shift+Cmd+5"],
+    "description": "Open the screenshot and screen recording controls.",
+    "tags": ["screenshot", "recording", "capture"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "System",
+    "action": "Lock screen",
+    "keys": ["Ctrl+Cmd+Q"],
+    "description": "Lock the screen.",
+    "tags": ["security", "lock", "session"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Finder",
+    "action": "New folder",
+    "keys": ["Shift+Cmd+N"],
+    "description": "Create a new folder in Finder.",
+    "tags": ["finder", "folder", "file"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Finder",
+    "action": "Go to Folder",
+    "keys": ["Shift+Cmd+G"],
+    "description": "Open the Go to Folder window.",
+    "tags": ["finder", "navigation", "path"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Finder",
+    "action": "Open Home folder",
+    "keys": ["Shift+Cmd+H"],
+    "description": "Open the current user's Home folder.",
+    "tags": ["finder", "home", "folder"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Finder",
+    "action": "Open Downloads folder",
+    "keys": ["Option+Cmd+L"],
+    "description": "Open the Downloads folder.",
+    "tags": ["finder", "downloads", "folder"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Finder",
+    "action": "Move item to Trash",
+    "keys": ["Cmd+Delete"],
+    "description": "Move the selected item to the Trash.",
+    "tags": ["finder", "trash", "delete"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Text Editing",
+    "action": "Delete previous word",
+    "keys": ["Option+Delete"],
+    "description": "Delete the word to the left of the insertion point.",
+    "tags": ["text", "delete", "word"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Text Editing",
+    "action": "Move to beginning or end of line",
+    "keys": ["Ctrl+A", "Ctrl+E"],
+    "description": "Move to the beginning or end of the current line or paragraph.",
+    "tags": ["text", "cursor", "navigation"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Text Editing",
+    "action": "Move by character",
+    "keys": ["Ctrl+F", "Ctrl+B"],
+    "description": "Move one character forward or backward.",
+    "tags": ["text", "cursor", "navigation"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Text Editing",
+    "action": "Move by word",
+    "keys": ["Option+Left", "Option+Right"],
+    "description": "Move the insertion point to the beginning of the previous word or end of the next word.",
+    "tags": ["text", "cursor", "word"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  },
+  {
+    "app": "macos",
+    "category": "Text Editing",
+    "action": "Cut to end of paragraph",
+    "keys": ["Ctrl+K"],
+    "description": "Cut text between the insertion point and the end of the paragraph.",
+    "tags": ["text", "kill", "clipboard"],
+    "sourceUrl": "https://support.apple.com/en-us/102650"
+  }
+]

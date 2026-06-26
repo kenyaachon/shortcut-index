@@ -1,0 +1,60 @@
+{
+  "name": "shortcut-index",
+  "version": "0.1.0",
+  "description": "Offline searchable shortcut index for macOS, zsh, Ghostty, VS Code, and Codex CLI.",
+  "main": "dist-electron/main/main.js",
+  "author": "Moses Mbugua",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently -k -n site,electron -c cyan,green \"vite --host 127.0.0.1 --port 5173 --strictPort\" \"wait-on http://127.0.0.1:5173 && cross-env VITE_DEV_SERVER_URL=http://127.0.0.1:5173 npm run dev:electron\"",
+    "dev:electron": "tsc -p tsconfig.main.json && electron .",
+    "lint": "eslint . --max-warnings=0",
+    "typecheck": "tsc --noEmit -p tsconfig.renderer.json && tsc --noEmit -p tsconfig.main.json",
+    "build": "npm run typecheck && tsc -p tsconfig.main.json && vite build",
+    "icons": "node scripts/generate-icon.mjs && iconutil -c icns build/icon.iconset -o build/icon.icns",
+    "start": "electron .",
+    "package": "npm run icons && npm run build && electron-builder --mac --dir",
+    "dist": "npm run icons && npm run build && electron-builder --mac"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8",
+    "eslint": "^9.17.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.2",
+    "vite": "^6.0.7",
+    "wait-on": "^8.0.1"
+  },
+  "build": {
+    "appId": "dev.shortcutindex.app",
+    "productName": "Shortcut Index",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-electron/**/*",
+      "package.json"
+    ],
+    "mac": {
+      "category": "public.app-category.productivity",
+      "target": [
+        "dir"
+      ]
+    },
+    "asar": true
+  }
+}
