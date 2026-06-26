@@ -1,0 +1,542 @@
+[
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Interrupt or clear input",
+    "keys": ["Ctrl+C"],
+    "description": "Interrupt a running operation, clear prompt input, or exit on a second press when idle.",
+    "tags": ["interrupt", "clear", "exit", "session", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Stop all running subagents",
+    "keys": ["Ctrl+X Ctrl+K"],
+    "description": "Stop all running background subagents in the current session.",
+    "tags": ["subagents", "stop", "background", "session", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Exit session",
+    "keys": ["Ctrl+D"],
+    "description": "Send EOF and exit the Claude Code session.",
+    "tags": ["exit", "quit", "session", "eof", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Open prompt in editor",
+    "keys": ["Ctrl+G", "Ctrl+X Ctrl+E"],
+    "description": "Open the current prompt or custom response in the default text editor.",
+    "tags": ["editor", "prompt", "external editor", "composer", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Redraw screen",
+    "keys": ["Ctrl+L"],
+    "description": "Force a full terminal redraw while keeping input and conversation history.",
+    "tags": ["redraw", "screen", "terminal", "display", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Toggle transcript viewer",
+    "keys": ["Ctrl+O"],
+    "description": "Show or hide the detailed transcript viewer with tool usage and execution details.",
+    "tags": ["transcript", "viewer", "tools", "details", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Search command history",
+    "keys": ["Ctrl+R"],
+    "description": "Start reverse search through previous commands and prompts.",
+    "tags": ["history", "search", "reverse search", "prompt", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Paste image from clipboard",
+    "keys": ["Ctrl+V", "Cmd+V", "Alt+V"],
+    "description": "Insert a clipboard image chip at the cursor for use in the prompt.",
+    "tags": ["image", "clipboard", "paste", "prompt", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Background running tasks",
+    "keys": ["Ctrl+B"],
+    "description": "Move running Bash commands and agents to the background.",
+    "tags": ["background", "tasks", "bash", "agents", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Toggle task list",
+    "keys": ["Ctrl+T"],
+    "description": "Show or hide the task list in the terminal status area.",
+    "tags": ["tasks", "task list", "status", "toggle", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Cycle dialog tabs",
+    "keys": ["Left", "Right"],
+    "description": "Navigate between tabs in permission dialogs and menus.",
+    "tags": ["dialog", "tabs", "permissions", "navigation", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Move cursor or navigate history",
+    "keys": ["Up", "Down", "Ctrl+P", "Ctrl+N"],
+    "description": "Move within multiline input, then navigate command history at the first or last visual row.",
+    "tags": ["cursor", "history", "navigation", "composer", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Interrupt Claude",
+    "keys": ["Esc"],
+    "description": "Stop the current response or tool call mid-turn so you can redirect Claude.",
+    "tags": ["interrupt", "stop", "response", "tool call", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Clear draft or open rewind menu",
+    "keys": ["Esc Esc"],
+    "description": "Clear a non-empty input draft, or open the rewind menu when input is empty.",
+    "tags": ["clear", "draft", "rewind", "history", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Cycle permission modes",
+    "keys": ["Shift+Tab", "Alt+M"],
+    "description": "Cycle through default, acceptEdits, plan, and other enabled permission modes.",
+    "tags": ["permissions", "plan", "mode", "toggle", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Switch model",
+    "keys": ["Option+P", "Alt+P"],
+    "description": "Switch Claude models without clearing the current prompt.",
+    "tags": ["model", "switch", "prompt", "configuration", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Toggle extended thinking",
+    "keys": ["Option+T", "Alt+T"],
+    "description": "Enable or disable extended thinking mode when supported by the current model.",
+    "tags": ["thinking", "reasoning", "mode", "toggle", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "General Controls",
+    "action": "Toggle fast mode",
+    "keys": ["Option+O", "Alt+O"],
+    "description": "Enable or disable fast mode.",
+    "tags": ["fast mode", "mode", "toggle", "performance", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Move to start of line",
+    "keys": ["Ctrl+A"],
+    "description": "Move the cursor to the start of the current logical line.",
+    "tags": ["cursor", "line", "text", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Move to end of line",
+    "keys": ["Ctrl+E"],
+    "description": "Move the cursor to the end of the current logical line.",
+    "tags": ["cursor", "line", "text", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Delete to end of line",
+    "keys": ["Ctrl+K"],
+    "description": "Delete from the cursor to the end of the line and store the deleted text for pasting.",
+    "tags": ["delete", "line", "text", "kill", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Delete to start of line",
+    "keys": ["Ctrl+U", "Cmd+Backspace"],
+    "description": "Delete from the cursor to the start of the line and store the deleted text for pasting.",
+    "tags": ["delete", "line", "text", "kill", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Delete previous word",
+    "keys": ["Ctrl+W", "Ctrl+Backspace"],
+    "description": "Delete the previous word and store the deleted text for pasting.",
+    "tags": ["delete", "word", "text", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Paste deleted text",
+    "keys": ["Ctrl+Y"],
+    "description": "Paste text deleted with line or word deletion shortcuts.",
+    "tags": ["paste", "yank", "deleted text", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Cycle paste history",
+    "keys": ["Alt+Y"],
+    "description": "After pasting deleted text, cycle through previously deleted text.",
+    "tags": ["paste", "history", "yank", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Move back one word",
+    "keys": ["Alt+B"],
+    "description": "Move the cursor back one word.",
+    "tags": ["cursor", "word", "navigation", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Text Editing",
+    "action": "Move forward one word",
+    "keys": ["Alt+F"],
+    "description": "Move the cursor forward one word.",
+    "tags": ["cursor", "word", "navigation", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Theme & Display",
+    "action": "Toggle syntax highlighting",
+    "keys": ["Ctrl+T"],
+    "description": "Inside the /theme picker, toggle syntax highlighting for code blocks.",
+    "tags": ["theme", "syntax highlighting", "code", "display", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Multiline Input",
+    "action": "Insert newline with quick escape",
+    "keys": ["Backslash+Return"],
+    "description": "Insert a newline using the backslash plus Enter escape that works in all terminals.",
+    "tags": ["multiline", "newline", "input", "terminal", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Multiline Input",
+    "action": "Insert newline with Option",
+    "keys": ["Option+Return"],
+    "description": "Insert a newline after enabling Option as Meta on macOS.",
+    "tags": ["multiline", "newline", "option", "input", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Multiline Input",
+    "action": "Insert newline with Shift",
+    "keys": ["Shift+Return"],
+    "description": "Insert a newline in terminals with native Shift+Enter support.",
+    "tags": ["multiline", "newline", "shift", "input", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Multiline Input",
+    "action": "Insert newline with control sequence",
+    "keys": ["Ctrl+J"],
+    "description": "Insert a newline using a control sequence that works without terminal configuration.",
+    "tags": ["multiline", "newline", "control", "input", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Multiline Input",
+    "action": "Paste multiline content directly",
+    "keys": ["Paste"],
+    "description": "Paste multiline content directly, useful for code blocks and logs.",
+    "tags": ["multiline", "paste", "code", "logs", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Quick Commands",
+    "action": "Open command or skill menu",
+    "keys": ["Slash"],
+    "description": "Type slash at the start of input to open commands and skills.",
+    "tags": ["commands", "skills", "slash", "menu", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Quick Commands",
+    "action": "Enter shell mode",
+    "keys": ["!"],
+    "description": "Type ! at the start of input to run a shell command directly.",
+    "tags": ["shell", "bash", "command", "terminal", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Quick Commands",
+    "action": "Mention a file path",
+    "keys": ["@"],
+    "description": "Type @ to trigger file path autocomplete.",
+    "tags": ["file", "path", "mention", "autocomplete", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Transcript Viewer",
+    "action": "Toggle shortcut help",
+    "keys": ["?"],
+    "description": "In the transcript viewer, toggle the keyboard shortcut help panel.",
+    "tags": ["transcript", "help", "shortcuts", "viewer", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Transcript Viewer",
+    "action": "Jump between user prompts",
+    "keys": ["{", "}"],
+    "description": "In the transcript viewer, jump to the previous or next user prompt.",
+    "tags": ["transcript", "prompt", "navigation", "viewer", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Transcript Viewer",
+    "action": "Toggle show all content",
+    "keys": ["Ctrl+E"],
+    "description": "In the transcript viewer, toggle whether all content is shown.",
+    "tags": ["transcript", "show all", "content", "viewer", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Transcript Viewer",
+    "action": "Write transcript to scrollback",
+    "keys": ["["],
+    "description": "Write the full conversation to terminal scrollback for native search.",
+    "tags": ["transcript", "scrollback", "search", "viewer", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Transcript Viewer",
+    "action": "Open transcript in editor",
+    "keys": ["v"],
+    "description": "Write the conversation to a temporary file and open it in the configured editor.",
+    "tags": ["transcript", "editor", "visual", "viewer", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Transcript Viewer",
+    "action": "Exit transcript view",
+    "keys": ["q", "Ctrl+C", "Esc"],
+    "description": "Exit the transcript viewer.",
+    "tags": ["transcript", "exit", "viewer", "close", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Voice Input",
+    "action": "Start voice dictation",
+    "keys": ["Space"],
+    "description": "Hold or tap Space to use voice dictation when it is enabled.",
+    "tags": ["voice", "dictation", "input", "record", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Command History",
+    "action": "Start reverse history search",
+    "keys": ["Ctrl+R"],
+    "description": "Open interactive reverse search through command history.",
+    "tags": ["history", "reverse search", "search", "prompt", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Command History",
+    "action": "Cycle older reverse search matches",
+    "keys": ["Ctrl+R"],
+    "description": "While reverse search is active, cycle to older matching prompts.",
+    "tags": ["history", "reverse search", "matches", "navigation", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Command History",
+    "action": "Change reverse search scope",
+    "keys": ["Ctrl+S"],
+    "description": "Cycle reverse search scope through this session, this project, and all projects.",
+    "tags": ["history", "reverse search", "scope", "project", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Command History",
+    "action": "Accept reverse search match",
+    "keys": ["Tab", "Esc"],
+    "description": "Accept the current reverse search match and continue editing.",
+    "tags": ["history", "reverse search", "accept", "editing", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Command History",
+    "action": "Accept and execute reverse search match",
+    "keys": ["Return"],
+    "description": "Accept the current reverse search match and execute it immediately.",
+    "tags": ["history", "reverse search", "execute", "accept", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Command History",
+    "action": "Cancel reverse search",
+    "keys": ["Ctrl+C", "Backspace"],
+    "description": "Cancel reverse search and restore the original input.",
+    "tags": ["history", "reverse search", "cancel", "input", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Shell & Suggestions",
+    "action": "Start shell mode",
+    "keys": ["!"],
+    "description": "Prefix input with ! to run a shell command directly and add its output to context.",
+    "tags": ["shell", "bash", "command", "context", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Shell & Suggestions",
+    "action": "Background shell command",
+    "keys": ["Ctrl+B"],
+    "description": "In shell mode, background a long-running command.",
+    "tags": ["shell", "background", "bash", "command", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Shell & Suggestions",
+    "action": "Autocomplete shell command from history",
+    "keys": ["Tab"],
+    "description": "Complete a partial shell command from previous shell commands in the current project.",
+    "tags": ["shell", "autocomplete", "history", "bash", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Shell & Suggestions",
+    "action": "Exit shell mode",
+    "keys": ["Esc", "Backspace", "Ctrl+U"],
+    "description": "On an empty prompt, exit shell mode.",
+    "tags": ["shell", "exit", "bash", "prompt", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Shell & Suggestions",
+    "action": "Accept prompt suggestion",
+    "keys": ["Tab", "Right"],
+    "description": "Place the visible prompt suggestion into the input so it can be submitted.",
+    "tags": ["suggestion", "prompt", "autocomplete", "accept", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Side Questions",
+    "action": "Dismiss side-question answer",
+    "keys": ["Space", "Return", "Esc"],
+    "description": "Dismiss a /btw answer overlay and return to the prompt.",
+    "tags": ["btw", "side question", "dismiss", "overlay", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Side Questions",
+    "action": "Scroll side-question answer",
+    "keys": ["Up", "Down"],
+    "description": "Scroll within the current /btw answer overlay.",
+    "tags": ["btw", "side question", "scroll", "overlay", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Side Questions",
+    "action": "Navigate side-question answers",
+    "keys": ["Left", "Right"],
+    "description": "Move between the current /btw answer and earlier side-question answers from the session.",
+    "tags": ["btw", "side question", "history", "navigation", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Side Questions",
+    "action": "Copy side-question answer",
+    "keys": ["c"],
+    "description": "Copy the /btw answer to the clipboard as raw Markdown.",
+    "tags": ["btw", "side question", "copy", "markdown", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Side Questions",
+    "action": "Fork side-question answer",
+    "keys": ["f"],
+    "description": "Fork the /btw question and answer into a new full Claude Code session.",
+    "tags": ["btw", "side question", "fork", "session", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  },
+  {
+    "app": "claude",
+    "category": "Side Questions",
+    "action": "Clear side-question history",
+    "keys": ["x"],
+    "description": "Clear the list of earlier /btw exchanges shown above the current answer.",
+    "tags": ["btw", "side question", "clear", "history", "cli"],
+    "sourceUrl": "https://code.claude.com/docs/en/interactive-mode"
+  }
+]

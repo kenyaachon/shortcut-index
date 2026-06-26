@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Apple,
+  Bot,
   Check,
   Chrome,
   Code2,
@@ -78,6 +79,8 @@ function AppIcon({ app }: { app: AppId }) {
       return <Keyboard {...props} />;
     case "vscode":
       return <Code2 {...props} />;
+    case "claude":
+      return <Bot {...props} />;
     case "codex":
       return <SquareTerminal {...props} />;
     default:
@@ -365,6 +368,7 @@ export function App() {
       zsh: 0,
       ghostty: 0,
       vscode: 0,
+      claude: 0,
       codex: 0
     };
 

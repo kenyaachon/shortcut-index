@@ -406,6 +406,10 @@ label *,
   --row-accent: #2f78d4;
 }
 
+.app-accent-claude {
+  --row-accent: #a35f2b;
+}
+
 .app-accent-codex {
   --row-accent: #2f9e44;
 }
