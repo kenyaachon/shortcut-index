@@ -1,7 +1,7 @@
 {
   "name": "shortcut-index",
   "version": "0.1.0",
-  "description": "Offline searchable shortcut index for macOS, zsh, Ghostty, VS Code, and Codex CLI.",
+  "description": "Offline searchable shortcut index for macOS, Chrome, zsh, Ghostty, VS Code, and Codex CLI.",
   "main": "dist-electron/main/main.js",
   "author": "Moses Mbugua",
   "license": "MIT",

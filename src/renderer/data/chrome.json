@@ -1,0 +1,596 @@
+[
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Open a new window",
+    "keys": ["Cmd+N"],
+    "description": "Open a new Chrome window.",
+    "tags": ["window", "new", "browser"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Open a new Incognito window",
+    "keys": ["Shift+Cmd+N"],
+    "description": "Open a new window in Incognito mode.",
+    "tags": ["window", "incognito", "private"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Open a new tab",
+    "keys": ["Cmd+T"],
+    "description": "Open a new tab and jump to it.",
+    "tags": ["tab", "new", "browser"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Reopen closed tabs",
+    "keys": ["Shift+Cmd+T"],
+    "description": "Reopen previously closed tabs in the order they were closed.",
+    "tags": ["tab", "restore", "history"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Jump to the next open tab",
+    "keys": ["Option+Cmd+Right"],
+    "description": "Move focus to the next open tab.",
+    "tags": ["tab", "next", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Jump to the previous open tab",
+    "keys": ["Option+Cmd+Left"],
+    "description": "Move focus to the previous open tab.",
+    "tags": ["tab", "previous", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Jump to a specific tab",
+    "keys": ["Cmd+1", "Cmd+2", "Cmd+3", "Cmd+4", "Cmd+5", "Cmd+6", "Cmd+7", "Cmd+8"],
+    "description": "Jump to one of the first eight tabs.",
+    "tags": ["tab", "number", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Jump to the last tab",
+    "keys": ["Cmd+9"],
+    "description": "Jump to the last tab in the current window.",
+    "tags": ["tab", "last", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Go back",
+    "keys": ["Cmd+LeftBracket", "Cmd+Left"],
+    "description": "Open the previous page in the current tab's history.",
+    "tags": ["history", "back", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Go forward",
+    "keys": ["Cmd+RightBracket", "Cmd+Right"],
+    "description": "Open the next page in the current tab's history.",
+    "tags": ["history", "forward", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Close the current tab or pop-up",
+    "keys": ["Cmd+W"],
+    "description": "Close the current tab or pop-up window.",
+    "tags": ["tab", "close", "window"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Close the current window",
+    "keys": ["Shift+Cmd+W"],
+    "description": "Close the current Chrome window.",
+    "tags": ["window", "close"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Minimize the window",
+    "keys": ["Cmd+M"],
+    "description": "Minimize the current Chrome window.",
+    "tags": ["window", "minimize"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Hide Google Chrome",
+    "keys": ["Cmd+H"],
+    "description": "Hide Google Chrome.",
+    "tags": ["app", "hide", "window"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Quit Google Chrome",
+    "keys": ["Cmd+Q"],
+    "description": "Quit Google Chrome.",
+    "tags": ["app", "quit", "window"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Move tabs right or left",
+    "keys": ["Ctrl+Shift+PgUp", "Ctrl+Shift+PgDn"],
+    "description": "Move the focused tab right or left.",
+    "tags": ["tab", "move", "reorder"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Tabs & Windows",
+    "action": "Toggle full-screen mode",
+    "keys": ["Fn+F"],
+    "description": "Turn full-screen mode on or off.",
+    "tags": ["window", "fullscreen", "display"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Show or hide the Bookmarks Bar",
+    "keys": ["Shift+Cmd+B"],
+    "description": "Toggle the Chrome Bookmarks Bar.",
+    "tags": ["bookmarks", "bar", "toggle"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open the Bookmark Manager",
+    "keys": ["Option+Cmd+B"],
+    "description": "Open Chrome's Bookmark Manager.",
+    "tags": ["bookmarks", "manager", "organize"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open Settings",
+    "keys": ["Cmd+Comma"],
+    "description": "Open the Chrome Settings page in a new tab.",
+    "tags": ["settings", "preferences", "configuration"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open History",
+    "keys": ["Cmd+Y"],
+    "description": "Open the History page in a new tab.",
+    "tags": ["history", "browser", "page"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open Downloads",
+    "keys": ["Shift+Cmd+J"],
+    "description": "Open the Downloads page in a new tab.",
+    "tags": ["downloads", "files", "page"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open Find Bar",
+    "keys": ["Cmd+F"],
+    "description": "Open the Find Bar to search the current page.",
+    "tags": ["find", "search", "page"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Jump to the next find match",
+    "keys": ["Cmd+G"],
+    "description": "Jump to the next match for the current Find Bar search.",
+    "tags": ["find", "next", "search"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Jump to the previous find match",
+    "keys": ["Shift+Cmd+G"],
+    "description": "Jump to the previous match for the current Find Bar search.",
+    "tags": ["find", "previous", "search"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Search for selected text",
+    "keys": ["Cmd+E"],
+    "description": "When the Find Bar is open, search for the selected text.",
+    "tags": ["find", "selection", "search"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open Developer Tools",
+    "keys": ["Option+Cmd+I"],
+    "description": "Open Chrome Developer Tools.",
+    "tags": ["developer", "tools", "inspect"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open Clear Browsing Data",
+    "keys": ["Shift+Cmd+Delete"],
+    "description": "Open the Delete Browsing Data options.",
+    "tags": ["privacy", "history", "clear"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open profile and Guest menu",
+    "keys": ["Shift+Cmd+M"],
+    "description": "Log in as a different user, browse as a Guest, or access payment and password info.",
+    "tags": ["profile", "guest", "account"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Jump to the main menu bar",
+    "keys": ["Ctrl+F2"],
+    "description": "Move focus to the main menu bar.",
+    "tags": ["menu", "focus", "accessibility"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Cycle focus to dialogs and toolbars",
+    "keys": ["Option+Cmd+Up", "Option+Cmd+Down"],
+    "description": "Cycle focus to an unfocused dialog, if one is showing, and all toolbars.",
+    "tags": ["focus", "toolbar", "dialog"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open feedback form",
+    "keys": ["Shift+Option+Cmd+I"],
+    "description": "Open a Chrome feedback form.",
+    "tags": ["feedback", "support", "report"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Turn on caret browsing",
+    "keys": ["F7"],
+    "description": "Turn on caret browsing.",
+    "tags": ["caret", "accessibility", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Focus inactive dialogs",
+    "keys": ["Shift+Option+Cmd+A"],
+    "description": "Move focus to inactive dialogs.",
+    "tags": ["focus", "dialog", "accessibility"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Chrome Features",
+    "action": "Open split view in the active tab",
+    "keys": ["Option+Cmd+N"],
+    "description": "Open split view in the active tab.",
+    "tags": ["split view", "tab", "layout"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Search with the default search engine",
+    "keys": ["Return"],
+    "description": "Type a search term in the address bar, then press Return.",
+    "tags": ["address bar", "search", "omnibox"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Search using a different search engine",
+    "keys": ["Tab"],
+    "description": "Type a search engine name in the address bar, press Tab, then enter the search.",
+    "tags": ["address bar", "search", "engine"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Add www. and .com in the current tab",
+    "keys": ["Ctrl+Return"],
+    "description": "Type a site name, then add www. and .com and open it in the current tab.",
+    "tags": ["address bar", "url", "domain"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Add www. and .com in a new window",
+    "keys": ["Shift+Ctrl+Return"],
+    "description": "Type a site name, then add www. and .com and open it in a new window.",
+    "tags": ["address bar", "url", "domain"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Open a typed address in a background tab",
+    "keys": ["Cmd+Return"],
+    "description": "Type a web address, then open it in a new background tab.",
+    "tags": ["address bar", "tab", "background"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Jump to the address bar",
+    "keys": ["Cmd+L"],
+    "description": "Move focus to the address bar.",
+    "tags": ["address bar", "omnibox", "focus"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Remove an address bar prediction",
+    "keys": ["Down Shift+Fn+Delete"],
+    "description": "Highlight a prediction in the address bar, then remove it.",
+    "tags": ["address bar", "prediction", "delete"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Address Bar",
+    "action": "Move cursor to the address bar",
+    "keys": ["Ctrl+F5"],
+    "description": "Move the cursor to the address bar.",
+    "tags": ["address bar", "cursor", "focus"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Email a link to the current page",
+    "keys": ["Shift+Cmd+I"],
+    "description": "Compose a new email message with a link to the current page.",
+    "tags": ["email", "share", "page"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Print the current page",
+    "keys": ["Cmd+P"],
+    "description": "Open options to print the current page.",
+    "tags": ["print", "page", "document"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Save the current page",
+    "keys": ["Cmd+S"],
+    "description": "Open options to save the current page.",
+    "tags": ["save", "page", "file"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Open Page Setup",
+    "keys": ["Option+Cmd+P"],
+    "description": "Open the Page Setup dialog.",
+    "tags": ["page setup", "print", "page"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Hard reload the current page",
+    "keys": ["Shift+Cmd+R"],
+    "description": "Reload the current page while ignoring cached content.",
+    "tags": ["reload", "refresh", "cache"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Stop page loading",
+    "keys": ["Esc"],
+    "description": "Stop the page from loading.",
+    "tags": ["page", "loading", "stop"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Browse clickable items forward",
+    "keys": ["Tab"],
+    "description": "Move forward through clickable items on the page.",
+    "tags": ["navigation", "focus", "links"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Browse clickable items backward",
+    "keys": ["Shift+Tab"],
+    "description": "Move backward through clickable items on the page.",
+    "tags": ["navigation", "focus", "links"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Open a local file",
+    "keys": ["Cmd+O"],
+    "description": "Open a file from your computer in Google Chrome.",
+    "tags": ["file", "open", "local"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "View page source",
+    "keys": ["Option+Cmd+U"],
+    "description": "Display non-editable HTML source code for the current page.",
+    "tags": ["source", "html", "developer"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Open JavaScript Console",
+    "keys": ["Option+Cmd+J"],
+    "description": "Open the JavaScript Console.",
+    "tags": ["javascript", "console", "developer"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Bookmark the current page",
+    "keys": ["Cmd+D"],
+    "description": "Save the current webpage as a bookmark.",
+    "tags": ["bookmark", "page", "save"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Bookmark all open tabs",
+    "keys": ["Shift+Cmd+D"],
+    "description": "Save all open tabs as bookmarks in a new folder.",
+    "tags": ["bookmark", "tabs", "folder"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Zoom in",
+    "keys": ["Cmd+Plus"],
+    "description": "Make everything on the page bigger.",
+    "tags": ["zoom", "page", "size"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Zoom out",
+    "keys": ["Cmd+Minus"],
+    "description": "Make everything on the page smaller.",
+    "tags": ["zoom", "page", "size"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Reset zoom",
+    "keys": ["Cmd+0"],
+    "description": "Return everything on the page to the default size.",
+    "tags": ["zoom", "reset", "page"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Scroll down one screen",
+    "keys": ["Space"],
+    "description": "Scroll down a webpage one screen at a time.",
+    "tags": ["scroll", "page", "down"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Scroll up one screen",
+    "keys": ["Shift+Space"],
+    "description": "Scroll up a webpage one screen at a time.",
+    "tags": ["scroll", "page", "up"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Search the web",
+    "keys": ["Option+Cmd+F"],
+    "description": "Search the web from Chrome.",
+    "tags": ["search", "web", "address bar"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Move to the previous word in a text field",
+    "keys": ["Option+Left"],
+    "description": "Move the cursor to the beginning of the previous word in a text field.",
+    "tags": ["text", "cursor", "word"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Move to the next word in a text field",
+    "keys": ["Option+Right"],
+    "description": "Move the cursor to the back of the next word in a text field.",
+    "tags": ["text", "cursor", "word"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Delete the previous word in a text field",
+    "keys": ["Option+Delete"],
+    "description": "Delete the previous word in a text field.",
+    "tags": ["text", "delete", "word"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  },
+  {
+    "app": "chrome",
+    "category": "Webpage",
+    "action": "Open the home page",
+    "keys": ["Shift+Cmd+H"],
+    "description": "Open your home page in the current tab.",
+    "tags": ["home", "page", "navigation"],
+    "sourceUrl": "https://support.google.com/chrome/answer/157179"
+  }
+]

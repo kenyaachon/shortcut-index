@@ -1,4 +1,4 @@
-export type AppId = "all" | "macos" | "zsh" | "ghostty" | "vscode" | "codex";
+export type AppId = "all" | "macos" | "chrome" | "zsh" | "ghostty" | "vscode" | "codex";
 
 export type ThemePreference = "system" | "light" | "dark";
 

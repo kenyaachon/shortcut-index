@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import {
   Apple,
   Check,
+  Chrome,
   Code2,
   Copy,
   ExternalLink,
@@ -69,6 +70,8 @@ function AppIcon({ app }: { app: AppId }) {
   switch (app) {
     case "macos":
       return <Apple {...props} />;
+    case "chrome":
+      return <Chrome {...props} />;
     case "zsh":
       return <Terminal {...props} />;
     case "ghostty":
@@ -358,6 +361,7 @@ export function App() {
     const next: Record<AppId, number> = {
       all: shortcuts.length,
       macos: 0,
+      chrome: 0,
       zsh: 0,
       ghostty: 0,
       vscode: 0,

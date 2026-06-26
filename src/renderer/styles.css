@@ -390,6 +390,10 @@ label *,
   --row-accent: #676f7a;
 }
 
+.app-accent-chrome {
+  --row-accent: #1a73e8;
+}
+
 .app-accent-zsh {
   --row-accent: #0f8f7d;
 }

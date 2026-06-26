@@ -1,6 +1,6 @@
 # Shortcut Index
 
-If you struggle to remember keyboard shortcuts, try this offline Electron menu-bar app for quickly searching shortcuts across macOS, zsh, Ghostty, VS Code, and Codex CLI.
+If you struggle to remember keyboard shortcuts, try this offline Electron menu-bar app for quickly searching shortcuts across macOS, Chrome, zsh, Ghostty, VS Code, and Codex CLI.
 
 ## Credit
 
@@ -68,6 +68,7 @@ npm run package
 ## Data Sources
 
 - macOS keyboard shortcuts: https://support.apple.com/en-us/102650
+- Chrome keyboard shortcuts: https://support.google.com/chrome/answer/157179
 - VS Code keybindings: https://code.visualstudio.com/docs/configure/keybindings
 - Ghostty keybindings: https://ghostty.org/docs/config/keybind/reference
 - zsh line editor: https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html
