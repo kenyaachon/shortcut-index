@@ -6,34 +6,52 @@
     "keys": ["Shift+Cmd+P", "F1"],
     "description": "Open the command palette.",
     "tags": ["command palette", "commands", "launcher"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "General",
-    "action": "Quick Open",
+    "action": "Quick Open, Go to File",
     "keys": ["Cmd+P"],
     "description": "Quickly open files by name.",
     "tags": ["file", "search", "navigation"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "General",
-    "action": "New window",
+    "action": "New window/instance",
     "keys": ["Shift+Cmd+N"],
-    "description": "Create a new VS Code window.",
-    "tags": ["window", "workspace"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "description": "Create a new VS Code window or instance.",
+    "tags": ["window", "workspace", "new"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "General",
-    "action": "Open Keyboard Shortcuts",
+    "action": "Close window/instance",
+    "keys": ["Cmd+W"],
+    "description": "Close the current VS Code window or instance.",
+    "tags": ["window", "close"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "General",
+    "action": "User Settings",
+    "keys": ["Cmd+Comma"],
+    "description": "Open user settings.",
+    "tags": ["settings", "preferences", "configuration"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "General",
+    "action": "Keyboard Shortcuts",
     "keys": ["Cmd+K Cmd+S"],
     "description": "Open the Keyboard Shortcuts editor.",
     "tags": ["settings", "keybindings", "preferences"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -42,7 +60,7 @@
     "keys": ["Cmd+X"],
     "description": "Cut the current line when there is no selection.",
     "tags": ["edit", "line", "clipboard"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -51,25 +69,25 @@
     "keys": ["Cmd+C"],
     "description": "Copy the current line when there is no selection.",
     "tags": ["edit", "line", "clipboard"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Basic Editing",
-    "action": "Move line",
+    "action": "Move line down/up",
     "keys": ["Option+Down", "Option+Up"],
     "description": "Move the current line down or up.",
     "tags": ["edit", "line", "move"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Basic Editing",
-    "action": "Copy line",
+    "action": "Copy line down/up",
     "keys": ["Shift+Option+Down", "Shift+Option+Up"],
     "description": "Copy the current line down or up.",
     "tags": ["edit", "line", "duplicate"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -78,16 +96,16 @@
     "keys": ["Shift+Cmd+K"],
     "description": "Delete the current line.",
     "tags": ["edit", "line", "delete"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Basic Editing",
-    "action": "Insert line",
+    "action": "Insert line below/above",
     "keys": ["Cmd+Enter", "Shift+Cmd+Enter"],
     "description": "Insert a new line below or above.",
     "tags": ["edit", "line", "insert"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -96,7 +114,97 @@
     "keys": ["Shift+Cmd+Backslash"],
     "description": "Move to the matching bracket.",
     "tags": ["bracket", "navigation", "code"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Indent/outdent line",
+    "keys": ["Cmd+RightBracket", "Cmd+LeftBracket"],
+    "description": "Indent or outdent the current line.",
+    "tags": ["edit", "line", "indent"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Go to beginning/end of line",
+    "keys": ["Home", "End"],
+    "description": "Move to the beginning or end of the current line.",
+    "tags": ["line", "navigation", "cursor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Go to beginning/end of file",
+    "keys": ["Cmd+Up", "Cmd+Down"],
+    "description": "Move to the beginning or end of the current file.",
+    "tags": ["file", "navigation", "cursor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Scroll line up/down",
+    "keys": ["Ctrl+PgUp", "Ctrl+PgDn"],
+    "description": "Scroll the editor up or down by line.",
+    "tags": ["scroll", "line", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Scroll page up/down",
+    "keys": ["Cmd+PgUp", "Cmd+PgDn"],
+    "description": "Scroll the editor up or down by page.",
+    "tags": ["scroll", "page", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Fold/unfold region",
+    "keys": ["Option+Cmd+LeftBracket", "Option+Cmd+RightBracket"],
+    "description": "Fold or unfold the current code region.",
+    "tags": ["fold", "region", "code"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Fold/unfold all subregions",
+    "keys": ["Cmd+K Cmd+LeftBracket", "Cmd+K Cmd+RightBracket"],
+    "description": "Fold or unfold all subregions in the current region.",
+    "tags": ["fold", "region", "code"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Fold/unfold all regions",
+    "keys": ["Cmd+K Cmd+0", "Cmd+K Cmd+J"],
+    "description": "Fold or unfold all regions in the file.",
+    "tags": ["fold", "region", "code"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Add line comment",
+    "keys": ["Cmd+K Cmd+C"],
+    "description": "Add a line comment to the current line or selection.",
+    "tags": ["comment", "code", "edit"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Basic Editing",
+    "action": "Remove line comment",
+    "keys": ["Cmd+K Cmd+U"],
+    "description": "Remove line comments from the current line or selection.",
+    "tags": ["comment", "code", "edit"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -105,7 +213,7 @@
     "keys": ["Cmd+Slash"],
     "description": "Toggle a line comment.",
     "tags": ["comment", "code", "edit"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -114,7 +222,7 @@
     "keys": ["Shift+Option+A"],
     "description": "Toggle a block comment.",
     "tags": ["comment", "code", "edit"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -123,16 +231,34 @@
     "keys": ["Option+Z"],
     "description": "Toggle editor word wrapping.",
     "tags": ["view", "editor", "wrap"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Multi-Cursor",
-    "action": "Insert cursor above or below",
-    "keys": ["Option+Cmd+Up", "Option+Cmd+Down"],
-    "description": "Add a cursor above or below the current cursor.",
+    "action": "Insert cursor",
+    "keys": ["Option+Click"],
+    "description": "Insert a cursor at the clicked location.",
+    "tags": ["multi cursor", "selection", "mouse"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Insert cursor above",
+    "keys": ["Option+Cmd+Up"],
+    "description": "Add a cursor above the current cursor.",
     "tags": ["multi cursor", "selection", "edit"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Insert cursor below",
+    "keys": ["Option+Cmd+Down"],
+    "description": "Add a cursor below the current cursor.",
+    "tags": ["multi cursor", "selection", "edit"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -141,7 +267,16 @@
     "keys": ["Cmd+U"],
     "description": "Undo the last cursor operation.",
     "tags": ["multi cursor", "undo", "selection"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Insert cursor at end of each line selected",
+    "keys": ["Shift+Option+I"],
+    "description": "Place cursors at the end of each selected line.",
+    "tags": ["multi cursor", "selection", "line"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -150,16 +285,79 @@
     "keys": ["Cmd+L"],
     "description": "Select the current line.",
     "tags": ["selection", "line"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Multi-Cursor",
-    "action": "Select all occurrences",
-    "keys": ["Shift+Cmd+L", "Cmd+F2"],
-    "description": "Select all occurrences of the current selection or word.",
+    "action": "Select all occurrences of current selection",
+    "keys": ["Shift+Cmd+L"],
+    "description": "Select all occurrences of the current selection.",
     "tags": ["selection", "occurrences", "multi cursor"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Select all occurrences of current word",
+    "keys": ["Cmd+F2"],
+    "description": "Select all occurrences of the current word.",
+    "tags": ["selection", "occurrences", "multi cursor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Expand/shrink selection",
+    "keys": ["Ctrl+Shift+Cmd+Right", "Ctrl+Shift+Cmd+Left"],
+    "description": "Expand or shrink the current selection.",
+    "tags": ["selection", "expand", "shrink"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Column selection",
+    "keys": ["Shift+Option+Drag"],
+    "description": "Create a column selection with the mouse.",
+    "tags": ["selection", "column", "mouse"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Column selection up/down",
+    "keys": ["Shift+Option+Cmd+Up", "Shift+Option+Cmd+Down"],
+    "description": "Extend column selection up or down.",
+    "tags": ["selection", "column", "multi cursor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Column selection left/right",
+    "keys": ["Shift+Option+Cmd+Left", "Shift+Option+Cmd+Right"],
+    "description": "Extend column selection left or right.",
+    "tags": ["selection", "column", "multi cursor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Column selection page up",
+    "keys": ["Shift+Option+Cmd+PgUp"],
+    "description": "Extend column selection one page up.",
+    "tags": ["selection", "column", "page"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Multi-Cursor",
+    "action": "Column selection page down",
+    "keys": ["Shift+Option+Cmd+PgDn"],
+    "description": "Extend column selection one page down.",
+    "tags": ["selection", "column", "page"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -168,7 +366,7 @@
     "keys": ["Cmd+F"],
     "description": "Open find in the current editor.",
     "tags": ["search", "find"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -177,25 +375,43 @@
     "keys": ["Option+Cmd+F"],
     "description": "Open replace in the current editor.",
     "tags": ["search", "replace"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Search",
-    "action": "Find next or previous",
+    "action": "Find next/previous",
     "keys": ["Cmd+G", "Shift+Cmd+G"],
     "description": "Move to the next or previous find match.",
     "tags": ["search", "find", "navigation"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Search",
-    "action": "Add selection to next find match",
+    "action": "Select all occurrences of Find match",
+    "keys": ["Option+Enter"],
+    "description": "Select every occurrence of the current find match.",
+    "tags": ["search", "selection", "occurrences"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Search",
+    "action": "Add selection to next Find match",
     "keys": ["Cmd+D"],
     "description": "Add the next matching occurrence to the selection.",
     "tags": ["selection", "search", "multi cursor"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Search",
+    "action": "Move last selection to next Find match",
+    "keys": ["Cmd+K Cmd+D"],
+    "description": "Move the last selected occurrence to the next find match.",
+    "tags": ["selection", "search", "multi cursor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -204,7 +420,16 @@
     "keys": ["Ctrl+Space", "Cmd+I"],
     "description": "Trigger editor suggestions.",
     "tags": ["intellisense", "completion", "language"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Trigger parameter hints",
+    "keys": ["Shift+Cmd+Space"],
+    "description": "Show parameter hints for the current call.",
+    "tags": ["parameters", "hints", "language"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -213,7 +438,16 @@
     "keys": ["Shift+Option+F"],
     "description": "Format the current document.",
     "tags": ["format", "language", "code"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Format selection",
+    "keys": ["Cmd+K Cmd+F"],
+    "description": "Format the current selection.",
+    "tags": ["format", "selection", "language"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -222,7 +456,7 @@
     "keys": ["F12"],
     "description": "Go to the symbol definition.",
     "tags": ["definition", "navigation", "language"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -231,7 +465,16 @@
     "keys": ["Option+F12"],
     "description": "Peek at the symbol definition inline.",
     "tags": ["definition", "peek", "language"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Open Definition to the side",
+    "keys": ["Cmd+K F12"],
+    "description": "Open the symbol definition beside the current editor.",
+    "tags": ["definition", "navigation", "editor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -240,7 +483,16 @@
     "keys": ["Cmd+Period"],
     "description": "Open quick fixes and code actions.",
     "tags": ["quick fix", "code action", "language"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Show References",
+    "keys": ["Shift+F12"],
+    "description": "Show references for the selected symbol.",
+    "tags": ["references", "language", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -249,16 +501,34 @@
     "keys": ["F2"],
     "description": "Rename the selected symbol.",
     "tags": ["rename", "refactor", "language"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Trim trailing whitespace",
+    "keys": ["Cmd+K Cmd+X"],
+    "description": "Remove trailing whitespace from the file.",
+    "tags": ["whitespace", "format", "edit"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Language",
+    "action": "Change file language",
+    "keys": ["Cmd+K M"],
+    "description": "Change the language mode for the current file.",
+    "tags": ["language", "file", "mode"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Navigation",
-    "action": "Show all symbols",
+    "action": "Show all Symbols",
     "keys": ["Cmd+T"],
     "description": "Search workspace symbols.",
     "tags": ["symbols", "workspace", "navigation"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -267,7 +537,16 @@
     "keys": ["Ctrl+G"],
     "description": "Go to a line number.",
     "tags": ["line", "navigation"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Go to File",
+    "keys": ["Cmd+P"],
+    "description": "Quickly open files by name.",
+    "tags": ["file", "search", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -276,7 +555,7 @@
     "keys": ["Shift+Cmd+O"],
     "description": "Go to a symbol in the current file.",
     "tags": ["symbol", "file", "navigation"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -285,16 +564,61 @@
     "keys": ["Shift+Cmd+M"],
     "description": "Show the Problems panel.",
     "tags": ["problems", "diagnostics", "panel"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Navigation",
-    "action": "Go back or forward",
+    "action": "Go to next/previous error or warning",
+    "keys": ["F8", "Shift+F8"],
+    "description": "Move to the next or previous error or warning.",
+    "tags": ["problems", "diagnostics", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Navigate editor group history",
+    "keys": ["Ctrl+Shift+Tab"],
+    "description": "Navigate through editor group history.",
+    "tags": ["editor", "history", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Go back/forward",
     "keys": ["Ctrl+Minus", "Ctrl+Shift+Minus"],
     "description": "Navigate back or forward in editor history.",
     "tags": ["history", "navigation"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Navigation",
+    "action": "Toggle Tab moves focus",
+    "keys": ["Ctrl+Shift+M"],
+    "description": "Toggle whether Tab moves focus instead of inserting a tab character.",
+    "tags": ["tab", "focus", "accessibility"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Editor Management",
+    "action": "Close editor",
+    "keys": ["Cmd+W"],
+    "description": "Close the active editor.",
+    "tags": ["editor", "close"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Editor Management",
+    "action": "Close folder",
+    "keys": ["Cmd+K F"],
+    "description": "Close the current folder.",
+    "tags": ["folder", "workspace", "close"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -303,16 +627,43 @@
     "keys": ["Cmd+Backslash"],
     "description": "Split the editor.",
     "tags": ["editor", "split", "layout"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Editor Management",
-    "action": "Focus editor group",
+    "action": "Focus into 1st, 2nd, 3rd editor group",
     "keys": ["Cmd+1", "Cmd+2", "Cmd+3"],
     "description": "Focus the first, second, or third editor group.",
     "tags": ["editor", "focus", "group"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Editor Management",
+    "action": "Focus into previous/next editor group",
+    "keys": ["Cmd+K Cmd+Left", "Cmd+K Cmd+Right"],
+    "description": "Focus the previous or next editor group.",
+    "tags": ["editor", "focus", "group"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Editor Management",
+    "action": "Move editor left/right",
+    "keys": ["Cmd+K Shift+Cmd+Left", "Cmd+K Shift+Cmd+Right"],
+    "description": "Move the active editor left or right.",
+    "tags": ["editor", "move", "layout"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Editor Management",
+    "action": "Move active editor group",
+    "keys": ["Cmd+K Left", "Cmd+K Right"],
+    "description": "Move the active editor group left or right.",
+    "tags": ["editor", "group", "layout"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -321,7 +672,16 @@
     "keys": ["Cmd+N"],
     "description": "Create a new file.",
     "tags": ["file", "new"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Open File",
+    "keys": ["Cmd+O"],
+    "description": "Open a file.",
+    "tags": ["file", "open"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -330,7 +690,43 @@
     "keys": ["Cmd+S"],
     "description": "Save the current file.",
     "tags": ["file", "save"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Save As",
+    "keys": ["Shift+Cmd+S"],
+    "description": "Save the current file with a new name or location.",
+    "tags": ["file", "save"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Save All",
+    "keys": ["Option+Cmd+S"],
+    "description": "Save all open files.",
+    "tags": ["file", "save"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Close",
+    "keys": ["Cmd+W"],
+    "description": "Close the current file or editor.",
+    "tags": ["file", "close"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Close All",
+    "keys": ["Cmd+K Cmd+W"],
+    "description": "Close all open editors.",
+    "tags": ["file", "editor", "close"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -339,25 +735,97 @@
     "keys": ["Shift+Cmd+T"],
     "description": "Reopen the most recently closed editor.",
     "tags": ["file", "editor", "restore"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Keep preview mode editor open",
+    "keys": ["Cmd+K Enter"],
+    "description": "Keep a preview editor open as a regular editor.",
+    "tags": ["editor", "preview", "file"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Open next/previous",
+    "keys": ["Ctrl+Tab", "Ctrl+Shift+Tab"],
+    "description": "Open the next or previous editor.",
+    "tags": ["editor", "navigation", "file"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Copy path of active file",
+    "keys": ["Cmd+K P"],
+    "description": "Copy the path of the active file.",
+    "tags": ["file", "path", "clipboard"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Reveal active file in Finder",
+    "keys": ["Cmd+K R"],
+    "description": "Reveal the active file in Finder.",
+    "tags": ["file", "finder", "reveal"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "File Management",
+    "action": "Show active file in new window/instance",
+    "keys": ["Cmd+K O"],
+    "description": "Open the active file in a new window or instance.",
+    "tags": ["file", "window", "editor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Display",
-    "action": "Toggle Sidebar",
+    "action": "Toggle full screen",
+    "keys": ["Ctrl+Cmd+F"],
+    "description": "Toggle full screen mode.",
+    "tags": ["view", "fullscreen", "window"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Toggle editor layout",
+    "keys": ["Option+Cmd+0"],
+    "description": "Toggle editor layout between horizontal and vertical.",
+    "tags": ["view", "editor", "layout"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Zoom in/out",
+    "keys": ["Cmd+Equal", "Shift+Cmd+Minus"],
+    "description": "Zoom the workbench in or out.",
+    "tags": ["view", "zoom", "display"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Toggle Sidebar visibility",
     "keys": ["Cmd+B"],
     "description": "Show or hide the primary sidebar.",
     "tags": ["view", "sidebar", "layout"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Display",
-    "action": "Show Explorer",
+    "action": "Show Explorer / Toggle focus",
     "keys": ["Shift+Cmd+E"],
-    "description": "Show Explorer or focus it.",
+    "description": "Show Explorer or toggle focus to it.",
     "tags": ["view", "explorer", "sidebar"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -366,7 +834,79 @@
     "keys": ["Shift+Cmd+F"],
     "description": "Show workspace search.",
     "tags": ["view", "search", "sidebar"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Show Source Control",
+    "keys": ["Ctrl+Shift+G"],
+    "description": "Show Source Control.",
+    "tags": ["view", "source control", "git"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Show Debug",
+    "keys": ["Shift+Cmd+D"],
+    "description": "Show Run and Debug.",
+    "tags": ["view", "debug", "sidebar"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Show Extensions",
+    "keys": ["Shift+Cmd+X"],
+    "description": "Show Extensions.",
+    "tags": ["view", "extensions", "sidebar"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Replace in files",
+    "keys": ["Shift+Cmd+H"],
+    "description": "Open replace across files.",
+    "tags": ["search", "replace", "files"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Toggle Search details",
+    "keys": ["Shift+Cmd+J"],
+    "description": "Show or hide search details.",
+    "tags": ["search", "details", "view"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Show Output panel",
+    "keys": ["Shift+Cmd+U"],
+    "description": "Show the Output panel.",
+    "tags": ["view", "output", "panel"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Open Markdown preview",
+    "keys": ["Shift+Cmd+V"],
+    "description": "Open Markdown preview for the active file.",
+    "tags": ["markdown", "preview", "view"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Display",
+    "action": "Open Markdown preview to the side",
+    "keys": ["Cmd+K V"],
+    "description": "Open Markdown preview beside the active file.",
+    "tags": ["markdown", "preview", "editor"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -375,16 +915,34 @@
     "keys": ["Cmd+K Z"],
     "description": "Toggle Zen Mode.",
     "tags": ["view", "focus", "zen"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
     "category": "Debug",
-    "action": "Start or continue debugging",
+    "action": "Toggle breakpoint",
+    "keys": ["F9"],
+    "description": "Toggle a breakpoint on the current line.",
+    "tags": ["debug", "breakpoint"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Debug",
+    "action": "Start/Continue",
     "keys": ["F5"],
     "description": "Start or continue a debug session.",
     "tags": ["debug", "run"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Debug",
+    "action": "Step into/out",
+    "keys": ["F11", "Shift+F11"],
+    "description": "Step into or out while debugging.",
+    "tags": ["debug", "step"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -393,7 +951,25 @@
     "keys": ["F10"],
     "description": "Step over while debugging.",
     "tags": ["debug", "step"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Debug",
+    "action": "Stop",
+    "keys": ["Shift+F5"],
+    "description": "Stop the active debug session.",
+    "tags": ["debug", "stop"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Debug",
+    "action": "Show hover",
+    "keys": ["Cmd+K Cmd+I"],
+    "description": "Show hover information while debugging or editing.",
+    "tags": ["debug", "hover", "language"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -402,7 +978,7 @@
     "keys": ["Ctrl+Backquote"],
     "description": "Show the integrated terminal.",
     "tags": ["terminal", "panel"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   },
   {
     "app": "vscode",
@@ -411,6 +987,42 @@
     "keys": ["Ctrl+Shift+Backquote"],
     "description": "Create a new integrated terminal.",
     "tags": ["terminal", "new"],
-    "sourceUrl": "https://code.visualstudio.com/docs/configure/keybindings"
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Terminal",
+    "action": "Copy selection",
+    "keys": ["Cmd+C"],
+    "description": "Copy the selected terminal text.",
+    "tags": ["terminal", "copy", "clipboard"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Terminal",
+    "action": "Scroll up/down",
+    "keys": ["Cmd+Up", "Cmd+Down"],
+    "description": "Scroll the terminal up or down.",
+    "tags": ["terminal", "scroll"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Terminal",
+    "action": "Scroll page up/down",
+    "keys": ["PgUp", "PgDn"],
+    "description": "Scroll the terminal up or down by page.",
+    "tags": ["terminal", "scroll", "page"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
+  },
+  {
+    "app": "vscode",
+    "category": "Terminal",
+    "action": "Scroll to top/bottom",
+    "keys": ["Cmd+Home", "Cmd+End"],
+    "description": "Scroll the terminal to the top or bottom.",
+    "tags": ["terminal", "scroll", "navigation"],
+    "sourceUrl": "https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf"
   }
 ]
