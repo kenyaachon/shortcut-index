@@ -30,6 +30,32 @@ npm run dev
 
 The minimum supported toolchain is declared in `package.json` under `engines`.
 
+## Run in the Background on macOS
+
+For source installs, the repo includes a LaunchAgent helper that can start the Electron dev app in the background when you log in to macOS.
+
+```bash
+nvm use
+npm ci
+npm run background
+```
+
+Check whether the LaunchAgent is loaded:
+
+```bash
+npm run background:status
+```
+
+Stop the background app and unload the LaunchAgent:
+
+```bash
+npm run background:stop
+```
+
+By default, the helper expects the repo at `~/Developer/shortcut-index` and writes logs to `${TMPDIR}/shortcut-index-dev.log`. Set `SHORTCUT_INDEX_HOME` to use a different repo path, or `SHORTCUT_INDEX_LOG` to use a different log file.
+
+The app also has a Settings toggle named "Launch at login". Use that toggle from the running app when you want Electron to manage the macOS login item for the current app binary.
+
 ## Verify
 
 ```bash
