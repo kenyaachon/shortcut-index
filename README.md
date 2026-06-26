@@ -2,6 +2,12 @@
 
 An offline Electron menu-bar app for quickly searching shortcuts across macOS, zsh, Ghostty, VS Code, and Codex CLI.
 
+## Credit
+
+Codex created this app.
+
+![Anime-style Codex mascot for Shortcut Index](docs/images/codex-credit.png)
+
 ## Usage
 
 Use the sidebar to filter by app, then search by action, key, app name, or tag. Each shortcut card shows the action, keybinding, tags, a source link, and copy controls.
