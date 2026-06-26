@@ -20,10 +20,15 @@ Open Settings to change the global hotkey, launch-at-login behavior, and theme p
 
 ## Run
 
+This project defaults to Node.js 22.18.0 and npm 10.9.3. If you use `nvm`, run:
+
 ```bash
-npm install
+nvm use
+npm ci
 npm run dev
 ```
+
+The minimum supported toolchain is declared in `package.json` under `engines`.
 
 ## Verify
 
