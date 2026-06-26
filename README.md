@@ -2,6 +2,16 @@
 
 An offline Electron menu-bar app for quickly searching shortcuts across macOS, zsh, Ghostty, VS Code, and Codex CLI.
 
+## Usage
+
+Use the sidebar to filter by app, then search by action, key, app name, or tag. Each shortcut card shows the action, keybinding, tags, a source link, and copy controls.
+
+![Shortcut search filtered to Codex CLI keyboard shortcuts](docs/images/shortcut-search.png)
+
+Open Settings to change the global hotkey, launch-at-login behavior, and theme preference.
+
+![Shortcut Index settings screen](docs/images/settings.png)
+
 ## Run
 
 ```bash
@@ -25,6 +35,5 @@ npm run package
 - Ghostty keybindings: https://ghostty.org/docs/config/keybind/reference
 - zsh line editor: https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html
 - Codex CLI features: https://developers.openai.com/codex/cli/features
-- Codex CLI slash commands: https://developers.openai.com/codex/cli/slash-commands
 
 The app intentionally ships with curated local JSON data. It does not scrape application menus or require Accessibility permissions in v1.
