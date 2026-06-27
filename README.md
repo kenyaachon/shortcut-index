@@ -1,5 +1,7 @@
 # Shortcut Index
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 If you struggle to remember keyboard shortcuts, try this offline Electron menu-bar app for quickly searching shortcuts across macOS, Chrome, zsh, Ghostty, VS Code, Claude Code, and Codex CLI.
 
 ## Credit
@@ -64,6 +66,10 @@ npm run typecheck
 npm run build
 npm run package
 ```
+
+## License
+
+Shortcut Index is released under the [MIT License](LICENSE).
 
 ## Data Sources
 
