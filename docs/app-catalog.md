@@ -43,15 +43,15 @@ Generated from `src/shared/appCatalog.ts`. The catalog currently contains 141 ap
 | AI / Dev Tools | Claude | `claude-desktop` | No |
 | AI / Dev Tools | Gemini | `gemini` | No |
 | AI / Dev Tools | GitHub Copilot | `copilot` | No |
-| Terminals | Warp | `warp` | No |
-| Terminals | Terminal | `terminal` | No |
-| Terminals | iTerm2 | `iterm2` | No |
-| Terminals | WezTerm | `wezterm` | No |
-| Terminals | Kitty | `kitty` | No |
-| Terminals | Alacritty | `alacritty` | No |
-| Terminals | tmux | `tmux` | No |
-| Terminals | Bash | `bash` | No |
-| Terminals | fish | `fish` | No |
+| Terminals | Warp | `warp` | Yes |
+| Terminals | Terminal | `terminal` | Yes |
+| Terminals | iTerm2 | `iterm2` | Yes |
+| Terminals | WezTerm | `wezterm` | Yes |
+| Terminals | Kitty | `kitty` | Yes |
+| Terminals | Alacritty | `alacritty` | Yes |
+| Terminals | tmux | `tmux` | Yes |
+| Terminals | Bash | `bash` | Yes |
+| Terminals | fish | `fish` | Yes |
 | Terminals | PowerShell | `powershell` | No |
 | Developer Tools | Git | `git` | No |
 | Developer Tools | GitHub Desktop | `github-desktop` | No |

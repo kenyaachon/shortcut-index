@@ -50,6 +50,22 @@ Seven additional browser apps were added to the bundled catalog:
 
 Each browser has a curated starter set of 25 Mac-oriented shortcuts. Brave remains in the broader app catalog but is not actively supported in this batch.
 
+## Bundled Terminal Apps
+
+Nine additional terminal apps and shells were added to the bundled catalog:
+
+- Warp: `warp`
+- Terminal: `terminal`
+- iTerm2: `iterm2`
+- WezTerm: `wezterm`
+- Kitty: `kitty`
+- Alacritty: `alacritty`
+- tmux: `tmux`
+- Bash: `bash`
+- fish: `fish`
+
+Each app has a curated starter set of 25 shortcuts. Terminal emulators focus on windows, tabs, panes, clipboard, search, scrollback, font/view controls, and configuration; tmux and shells focus on prefix workflows, line editing, history, completion, and kill/yank commands.
+
 ## Implementation Notes
 
 - `src/shared/types.ts` owns the bundled app ID list through `shortcutAppIds`.
@@ -67,6 +83,16 @@ Each browser has a curated starter set of 25 Mac-oriented shortcuts. Brave remai
 - Opera: https://help.opera.com/en/latest/shortcuts/
 - Orion common browser shortcuts: https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac
 - Zen Browser common browser shortcuts: https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
+- Warp: https://docs.warp.dev/getting-started/keyboard-shortcuts/
+- Terminal: https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac
+- iTerm2: https://iterm2.com/3.5/documentation-menu-items.html
+- WezTerm: https://wezterm.org/config/default-keys.html
+- kitty: https://sw.kovidgoyal.net/kitty/actions/
+- Alacritty: https://alacritty.org/config-alacritty-bindings.html
+- tmux getting started: https://github.com/tmux/tmux/wiki/Getting-Started
+- tmux manual: https://man7.org/linux/man-pages/man1/tmux.1.html
+- Bash Readline interaction: https://www.gnu.org/software/bash/manual/html_node/Readline-Interaction.html
+- fish interactive use: https://fishshell.com/docs/current/interactive.html
 - Excel: https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f
 - Word: https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2
 - PowerPoint: https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4

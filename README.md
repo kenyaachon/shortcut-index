@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-If you struggle to remember keyboard shortcuts, try this offline Electron menu-bar app for quickly searching shortcuts across macOS, major browsers, zsh, Ghostty, VS Code, Claude Code, Codex CLI, Microsoft Office, Google Docs editors, and Apple iWork apps.
+If you struggle to remember keyboard shortcuts, try this offline Electron menu-bar app for quickly searching shortcuts across macOS, major browsers, terminal emulators, shells, tmux, VS Code, Claude Code, Codex CLI, Microsoft Office, Google Docs editors, and Apple iWork apps.
 
 ## Credit
 
@@ -85,6 +85,16 @@ Shortcut Index is released under the [MIT License](LICENSE).
 - VS Code keybindings: https://code.visualstudio.com/docs/configure/keybindings
 - Ghostty keybindings: https://ghostty.org/docs/config/keybind/reference
 - zsh line editor: https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html
+- Warp keyboard shortcuts: https://docs.warp.dev/getting-started/keyboard-shortcuts/
+- Terminal keyboard shortcuts: https://support.apple.com/guide/terminal/keyboard-shortcuts-trmlshtcts/mac
+- iTerm2 menu shortcuts: https://iterm2.com/3.5/documentation-menu-items.html
+- WezTerm default keys: https://wezterm.org/config/default-keys.html
+- kitty actions and shortcuts: https://sw.kovidgoyal.net/kitty/actions/
+- Alacritty keyboard bindings: https://alacritty.org/config-alacritty-bindings.html
+- tmux getting started: https://github.com/tmux/tmux/wiki/Getting-Started
+- tmux manual: https://man7.org/linux/man-pages/man1/tmux.1.html
+- Bash Readline interaction: https://www.gnu.org/software/bash/manual/html_node/Readline-Interaction.html
+- fish interactive use: https://fishshell.com/docs/current/interactive.html
 - Claude Code interactive mode: https://code.claude.com/docs/en/interactive-mode
 - Codex CLI features: https://developers.openai.com/codex/cli/features
 - Excel keyboard shortcuts: https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f

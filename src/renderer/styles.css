@@ -446,6 +446,42 @@ label *,
   --row-accent: #d06b32;
 }
 
+.app-accent-warp {
+  --row-accent: #6b5cff;
+}
+
+.app-accent-terminal {
+  --row-accent: #4b5563;
+}
+
+.app-accent-iterm2 {
+  --row-accent: #00a86b;
+}
+
+.app-accent-wezterm {
+  --row-accent: #a855f7;
+}
+
+.app-accent-kitty {
+  --row-accent: #d946ef;
+}
+
+.app-accent-alacritty {
+  --row-accent: #e11d48;
+}
+
+.app-accent-tmux {
+  --row-accent: #1d9a8a;
+}
+
+.app-accent-bash {
+  --row-accent: #64748b;
+}
+
+.app-accent-fish {
+  --row-accent: #0284c7;
+}
+
 .app-accent-vscode {
   --row-accent: #2f78d4;
 }

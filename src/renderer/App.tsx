@@ -89,9 +89,19 @@ function AppIcon({ app }: { app: AppId }) {
     case "zen":
       return <Globe {...props} />;
     case "zsh":
+    case "warp":
+    case "terminal":
+    case "iterm2":
+    case "wezterm":
+    case "kitty":
+    case "alacritty":
+    case "bash":
+    case "fish":
       return <Terminal {...props} />;
     case "ghostty":
       return <Keyboard {...props} />;
+    case "tmux":
+      return <SquareTerminal {...props} />;
     case "vscode":
       return <Code2 {...props} />;
     case "claude":
