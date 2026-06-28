@@ -13,14 +13,23 @@ import {
   Tray
 } from "electron";
 import type { MenuItemConstructorOptions } from "electron";
-import type { HotkeyStatus, SettingsPayload, ThemePreference, UserSettings, ViewRequest } from "../shared/types";
+import {
+  shortcutAppIds,
+  type HotkeyStatus,
+  type SettingsPayload,
+  type ShortcutAppId,
+  type ThemePreference,
+  type UserSettings,
+  type ViewRequest
+} from "../shared/types";
 
 const isDev = Boolean(process.env.VITE_DEV_SERVER_URL);
 
 const defaultSettings: UserSettings = {
   hotkey: "CommandOrControl+Option+K",
   launchAtLogin: false,
-  theme: "system"
+  theme: "system",
+  enabledApps: [...shortcutAppIds]
 };
 
 let mainWindow: BrowserWindow | null = null;
@@ -49,12 +58,23 @@ function readSettings(): UserSettings {
 function normalizeSettings(input: Partial<UserSettings>): UserSettings {
   const theme: ThemePreference =
     input.theme === "light" || input.theme === "dark" || input.theme === "system" ? input.theme : "system";
+  const enabledApps = normalizeEnabledApps(input.enabledApps);
 
   return {
     hotkey: typeof input.hotkey === "string" && input.hotkey.trim() ? input.hotkey.trim() : defaultSettings.hotkey,
     launchAtLogin: Boolean(input.launchAtLogin),
-    theme
+    theme,
+    enabledApps
   };
+}
+
+function normalizeEnabledApps(input: unknown): ShortcutAppId[] {
+  if (!Array.isArray(input)) {
+    return [...shortcutAppIds];
+  }
+
+  const enabledApps = shortcutAppIds.filter((appId) => input.includes(appId));
+  return enabledApps.length > 0 ? enabledApps : [...shortcutAppIds];
 }
 
 function writeSettings(nextSettings: UserSettings): void {

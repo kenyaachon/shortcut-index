@@ -5,9 +5,9 @@ import ghosttyData from "./ghostty.json";
 import macosData from "./macos.json";
 import vscodeData from "./vscode.json";
 import zshData from "./zsh.json";
-import type { AppId, ShortcutEntry } from "../../shared/types";
+import { shortcutAppIds, type AppId, type ShortcutAppId, type ShortcutEntry } from "../../shared/types";
 
-export const appOrder: Exclude<AppId, "all">[] = ["macos", "chrome", "zsh", "ghostty", "vscode", "claude", "codex"];
+export const appOrder: ShortcutAppId[] = [...shortcutAppIds];
 
 export const appLabels: Record<AppId, string> = {
   all: "All apps",

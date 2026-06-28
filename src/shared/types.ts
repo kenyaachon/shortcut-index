@@ -1,9 +1,13 @@
-export type AppId = "all" | "macos" | "chrome" | "zsh" | "ghostty" | "vscode" | "claude" | "codex";
+export const shortcutAppIds = ["macos", "chrome", "zsh", "ghostty", "vscode", "claude", "codex"] as const;
+
+export type ShortcutAppId = (typeof shortcutAppIds)[number];
+
+export type AppId = "all" | ShortcutAppId;
 
 export type ThemePreference = "system" | "light" | "dark";
 
 export interface ShortcutEntry {
-  app: Exclude<AppId, "all">;
+  app: ShortcutAppId;
   category: string;
   action: string;
   keys: string[];
@@ -16,6 +20,7 @@ export interface UserSettings {
   hotkey: string;
   launchAtLogin: boolean;
   theme: ThemePreference;
+  enabledApps: ShortcutAppId[];
 }
 
 export interface HotkeyStatus {

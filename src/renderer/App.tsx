@@ -21,7 +21,7 @@ import {
 import { appLabels, appOrder, shortcuts } from "./data";
 import { Keycaps } from "./components/Keycaps";
 import { scoreShortcut } from "./utils/search";
-import type { AppId, SettingsPayload, ShortcutEntry, ShortcutIndexApi, ThemePreference } from "../shared/types";
+import type { AppId, SettingsPayload, ShortcutAppId, ShortcutEntry, ShortcutIndexApi, ThemePreference } from "../shared/types";
 
 type ViewMode = "shortcuts" | "settings";
 
@@ -29,7 +29,8 @@ const defaultPayload: SettingsPayload = {
   settings: {
     hotkey: "CommandOrControl+Option+K",
     launchAtLogin: false,
-    theme: "system"
+    theme: "system",
+    enabledApps: [...appOrder]
   },
   hotkeyStatus: {
     registered: false,
@@ -110,15 +111,17 @@ function Sidebar({
   onAppChange,
   view,
   onViewChange,
-  counts
+  counts,
+  enabledApps
 }: {
   activeApp: AppId;
   onAppChange: (app: AppId) => void;
   view: ViewMode;
   onViewChange: (view: ViewMode) => void;
   counts: Record<AppId, number>;
+  enabledApps: ShortcutAppId[];
 }) {
-  const appButtons: AppId[] = ["all", ...appOrder];
+  const appButtons: AppId[] = ["all", ...enabledApps];
 
   return (
     <aside className="sidebar">
@@ -128,7 +131,7 @@ function Sidebar({
         </div>
         <div>
           <h1>Shortcut Index</h1>
-          <p>{shortcuts.length} entries</p>
+          <p>{counts.all} entries</p>
         </div>
       </div>
 
@@ -228,10 +231,12 @@ function ResultRow({
 
 function SettingsPanel({
   payload,
-  onUpdate
+  onUpdate,
+  counts
 }: {
   payload: SettingsPayload;
   onUpdate: (settings: Partial<SettingsPayload["settings"]>) => Promise<void>;
+  counts: Record<AppId, number>;
 }) {
   const [hotkeyDraft, setHotkeyDraft] = useState(payload.settings.hotkey);
 
@@ -244,6 +249,14 @@ function SettingsPanel({
     { value: "light", label: "Light", icon: <Sun size={16} /> },
     { value: "dark", label: "Dark", icon: <Moon size={16} /> }
   ];
+
+  const handleAppToggle = (app: ShortcutAppId, enabled: boolean) => {
+    const nextEnabledApps = enabled
+      ? appOrder.filter((appId) => appId === app || payload.settings.enabledApps.includes(appId))
+      : payload.settings.enabledApps.filter((appId) => appId !== app);
+
+    void onUpdate({ enabledApps: nextEnabledApps });
+  };
 
   return (
     <section className="settings-screen">
@@ -290,6 +303,43 @@ function SettingsPanel({
           />
           <span />
         </label>
+      </div>
+
+      <div className="settings-section">
+        <div className="setting-copy">
+          <h3>Apps</h3>
+          <p>Choose which starter apps appear in search and the sidebar.</p>
+        </div>
+        <div className="app-toggle-list" role="group" aria-label="Apps shown in Shortcut Index">
+          {appOrder.map((app) => {
+            const checked = payload.settings.enabledApps.includes(app);
+            const disabled = checked && payload.settings.enabledApps.length === 1;
+
+            return (
+              <label className={disabled ? "app-toggle disabled" : "app-toggle"} key={app}>
+                <span className="app-toggle-main">
+                  <span className="app-toggle-icon">
+                    <AppIcon app={app} />
+                  </span>
+                  <span className="app-toggle-copy">
+                    <strong>{appLabels[app]}</strong>
+                    <small>{counts[app]} entries</small>
+                  </span>
+                </span>
+                <span className="switch">
+                  <input
+                    aria-label={`Show ${appLabels[app]}`}
+                    checked={checked}
+                    disabled={disabled}
+                    onChange={(event) => handleAppToggle(app, event.target.checked)}
+                    type="checkbox"
+                  />
+                  <span />
+                </span>
+              </label>
+            );
+          })}
+        </div>
       </div>
 
       <div className="settings-section">
@@ -360,7 +410,7 @@ export function App() {
     });
   }, []);
 
-  const counts = useMemo(() => {
+  const allCounts = useMemo(() => {
     const next: Record<AppId, number> = {
       all: shortcuts.length,
       macos: 0,
@@ -379,8 +429,39 @@ export function App() {
     return next;
   }, []);
 
+  const enabledAppSet = useMemo(() => new Set(payload.settings.enabledApps), [payload.settings.enabledApps]);
+
+  const enabledShortcuts = useMemo(() => {
+    return shortcuts.filter((entry) => enabledAppSet.has(entry.app));
+  }, [enabledAppSet]);
+
+  const counts = useMemo(() => {
+    const next: Record<AppId, number> = {
+      all: enabledShortcuts.length,
+      macos: 0,
+      chrome: 0,
+      zsh: 0,
+      ghostty: 0,
+      vscode: 0,
+      claude: 0,
+      codex: 0
+    };
+
+    for (const entry of enabledShortcuts) {
+      next[entry.app] += 1;
+    }
+
+    return next;
+  }, [enabledShortcuts]);
+
+  useEffect(() => {
+    if (activeApp !== "all" && !enabledAppSet.has(activeApp)) {
+      setActiveApp("all");
+    }
+  }, [activeApp, enabledAppSet]);
+
   const results = useMemo(() => {
-    return shortcuts
+    return enabledShortcuts
       .filter((entry) => activeApp === "all" || entry.app === activeApp)
       .map((entry) => ({
         entry,
@@ -400,7 +481,7 @@ export function App() {
         return `${a.entry.category} ${a.entry.action}`.localeCompare(`${b.entry.category} ${b.entry.action}`);
       })
       .map((item) => item.entry);
-  }, [activeApp, query]);
+  }, [activeApp, enabledShortcuts, query]);
 
   const groupedResults = useMemo(() => groupByCategory(results, activeApp), [activeApp, results]);
 
@@ -420,6 +501,7 @@ export function App() {
       <Sidebar
         activeApp={activeApp}
         counts={counts}
+        enabledApps={payload.settings.enabledApps}
         onAppChange={setActiveApp}
         onViewChange={setView}
         view={view}
@@ -480,7 +562,7 @@ export function App() {
             </section>
           </>
         ) : (
-          <SettingsPanel onUpdate={handleSettingsUpdate} payload={payload} />
+          <SettingsPanel counts={allCounts} onUpdate={handleSettingsUpdate} payload={payload} />
         )}
       </main>
     </div>

@@ -16,7 +16,7 @@ Use the sidebar to filter by app, then search by action, key, app name, or tag. 
 
 ![Shortcut search filtered to Codex CLI keyboard shortcuts](docs/images/shortcut-search.png)
 
-Open Settings to change the global hotkey, launch-at-login behavior, and theme preference.
+Open Settings to change the global hotkey, launch-at-login behavior, app visibility, and theme preference.
 
 ![Shortcut Index settings screen](docs/images/settings.png)
 
