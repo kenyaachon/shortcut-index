@@ -1,6 +1,13 @@
 export const shortcutAppIds = [
   "macos",
   "chrome",
+  "arc",
+  "firefox",
+  "safari",
+  "edge",
+  "opera",
+  "orion",
+  "zen",
   "zsh",
   "ghostty",
   "vscode",

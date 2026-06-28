@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-If you struggle to remember keyboard shortcuts, try this offline Electron menu-bar app for quickly searching shortcuts across macOS, Chrome, zsh, Ghostty, VS Code, Claude Code, Codex CLI, Microsoft Office, Google Docs editors, and Apple iWork apps.
+If you struggle to remember keyboard shortcuts, try this offline Electron menu-bar app for quickly searching shortcuts across macOS, major browsers, zsh, Ghostty, VS Code, Claude Code, Codex CLI, Microsoft Office, Google Docs editors, and Apple iWork apps.
 
 ## Credit
 
@@ -75,6 +75,13 @@ Shortcut Index is released under the [MIT License](LICENSE).
 
 - macOS keyboard shortcuts: https://support.apple.com/en-us/102650
 - Chrome keyboard shortcuts: https://support.google.com/chrome/answer/157179
+- Arc common browser shortcuts: https://support.google.com/chrome/answer/157179
+- Firefox keyboard shortcuts: https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
+- Safari keyboard shortcuts: https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac
+- Microsoft Edge keyboard shortcuts: https://support.microsoft.com/en-US/edge/keyboard-shortcuts-in-microsoft-edge
+- Opera keyboard shortcuts: https://help.opera.com/en/latest/shortcuts/
+- Orion common browser shortcuts: https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac
+- Zen Browser common browser shortcuts: https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
 - VS Code keybindings: https://code.visualstudio.com/docs/configure/keybindings
 - Ghostty keybindings: https://ghostty.org/docs/config/keybind/reference
 - zsh line editor: https://zsh.sourceforge.io/Doc/Release/Zsh-Line-Editor.html

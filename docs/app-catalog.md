@@ -11,14 +11,14 @@ Generated from `src/shared/appCatalog.ts`. The catalog currently contains 141 ap
 | Editors | VS Code | `vscode` | Yes |
 | AI / Dev Tools | Claude Code | `claude` | Yes |
 | AI / Dev Tools | Codex CLI | `codex` | Yes |
-| Browsers | Arc | `arc` | No |
-| Browsers | Firefox | `firefox` | No |
-| Browsers | Safari | `safari` | No |
-| Browsers | Microsoft Edge | `edge` | No |
+| Browsers | Arc | `arc` | Yes |
+| Browsers | Firefox | `firefox` | Yes |
+| Browsers | Safari | `safari` | Yes |
+| Browsers | Microsoft Edge | `edge` | Yes |
 | Browsers | Brave | `brave` | No |
-| Browsers | Opera | `opera` | No |
-| Browsers | Orion | `orion` | No |
-| Browsers | Zen Browser | `zen` | No |
+| Browsers | Opera | `opera` | Yes |
+| Browsers | Orion | `orion` | Yes |
+| Browsers | Zen Browser | `zen` | Yes |
 | Editors | Cursor | `cursor` | No |
 | Editors | Visual Studio | `visual-studio` | No |
 | Editors | Xcode | `xcode` | No |

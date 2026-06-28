@@ -36,6 +36,20 @@ Nine Office apps were added to the bundled catalog:
 
 Each app has a curated starter set of 25 Mac-oriented shortcuts. The shortcut data follows the existing `ShortcutEntry` shape: `app`, `category`, `action`, `keys`, `description`, `tags`, and `sourceUrl`.
 
+## Bundled Browser Apps
+
+Seven additional browser apps were added to the bundled catalog:
+
+- Arc: `arc`
+- Firefox: `firefox`
+- Safari: `safari`
+- Microsoft Edge: `edge`
+- Opera: `opera`
+- Orion: `orion`
+- Zen Browser: `zen`
+
+Each browser has a curated starter set of 25 Mac-oriented shortcuts. Brave remains in the broader app catalog but is not actively supported in this batch.
+
 ## Implementation Notes
 
 - `src/shared/types.ts` owns the bundled app ID list through `shortcutAppIds`.
@@ -46,6 +60,13 @@ Each app has a curated starter set of 25 Mac-oriented shortcuts. The shortcut da
 
 ## Official Sources
 
+- Arc common browser shortcuts: https://support.google.com/chrome/answer/157179
+- Firefox: https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
+- Safari: https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac
+- Microsoft Edge: https://support.microsoft.com/en-US/edge/keyboard-shortcuts-in-microsoft-edge
+- Opera: https://help.opera.com/en/latest/shortcuts/
+- Orion common browser shortcuts: https://support.apple.com/guide/safari/keyboard-shortcuts-and-gestures-cpsh003/mac
+- Zen Browser common browser shortcuts: https://support.mozilla.org/en-US/kb/keyboard-shortcuts-perform-firefox-tasks-quickly
 - Excel: https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f
 - Word: https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2
 - PowerPoint: https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4

@@ -410,6 +410,34 @@ label *,
   --row-accent: #1a73e8;
 }
 
+.app-accent-arc {
+  --row-accent: #fc5f45;
+}
+
+.app-accent-firefox {
+  --row-accent: #ff7139;
+}
+
+.app-accent-safari {
+  --row-accent: #0a84ff;
+}
+
+.app-accent-edge {
+  --row-accent: #0aa5a7;
+}
+
+.app-accent-opera {
+  --row-accent: #ff1b2d;
+}
+
+.app-accent-orion {
+  --row-accent: #5f6bff;
+}
+
+.app-accent-zen {
+  --row-accent: #7c3aed;
+}
+
 .app-accent-zsh {
   --row-accent: #0f8f7d;
 }

@@ -5,10 +5,12 @@ import {
   Check,
   Chrome,
   Code2,
+  Compass,
   Copy,
   ExternalLink,
   FileSpreadsheet,
   FileText,
+  Globe,
   Keyboard,
   Laptop,
   Monitor,
@@ -77,6 +79,15 @@ function AppIcon({ app }: { app: AppId }) {
       return <Apple {...props} />;
     case "chrome":
       return <Chrome {...props} />;
+    case "safari":
+    case "orion":
+      return <Compass {...props} />;
+    case "arc":
+    case "firefox":
+    case "edge":
+    case "opera":
+    case "zen":
+      return <Globe {...props} />;
     case "zsh":
       return <Terminal {...props} />;
     case "ghostty":
