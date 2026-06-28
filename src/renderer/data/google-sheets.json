@@ -1,0 +1,227 @@
+[
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Select column",
+    "keys": ["Ctrl+Space"],
+    "description": "Select the active column.",
+    "tags": ["select", "column", "selection"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Select row",
+    "keys": ["Shift+Space"],
+    "description": "Select the active row.",
+    "tags": ["select", "row", "selection"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Select all",
+    "keys": ["Cmd+A", "Cmd+Shift+Space"],
+    "description": "Select all cells or content.",
+    "tags": ["select all", "selection", "sheet"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Undo",
+    "keys": ["Cmd+Z"],
+    "description": "Undo the previous edit.",
+    "tags": ["undo", "edit", "history"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Redo",
+    "keys": ["Cmd+Y", "Cmd+Shift+Z", "Fn+F4"],
+    "description": "Redo the previous undone edit.",
+    "tags": ["redo", "edit", "history"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Find",
+    "keys": ["Cmd+F"],
+    "description": "Find content in the spreadsheet.",
+    "tags": ["find", "search", "navigation"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Find and replace",
+    "keys": ["Cmd+Shift+H"],
+    "description": "Open find and replace.",
+    "tags": ["replace", "find", "search"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Copy",
+    "keys": ["Cmd+C"],
+    "description": "Copy selected cells.",
+    "tags": ["copy", "clipboard", "cells"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Cut",
+    "keys": ["Cmd+X"],
+    "description": "Cut selected cells.",
+    "tags": ["cut", "clipboard", "cells"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Paste",
+    "keys": ["Cmd+V"],
+    "description": "Paste clipboard content into selected cells.",
+    "tags": ["paste", "clipboard", "cells"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Paste values only",
+    "keys": ["Cmd+Shift+V"],
+    "description": "Paste only values from the clipboard.",
+    "tags": ["paste values", "clipboard", "values"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Show keyboard shortcuts",
+    "keys": ["Cmd+/"],
+    "description": "Open the keyboard shortcuts list.",
+    "tags": ["shortcuts", "help", "reference"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Common",
+    "action": "Tool finder",
+    "keys": ["Option+/"],
+    "description": "Search menus and tools.",
+    "tags": ["tool finder", "menus", "search"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Sheet",
+    "action": "Insert new sheet",
+    "keys": ["Shift+Fn+F11"],
+    "description": "Add a new sheet to the spreadsheet.",
+    "tags": ["new sheet", "insert", "sheet"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Sheet",
+    "action": "Move to next sheet",
+    "keys": ["Option+Down", "Option+Right"],
+    "description": "Switch to the next sheet.",
+    "tags": ["next sheet", "navigation", "sheet"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Sheet",
+    "action": "Move to previous sheet",
+    "keys": ["Option+Up", "Option+Left"],
+    "description": "Switch to the previous sheet.",
+    "tags": ["previous sheet", "navigation", "sheet"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Cells",
+    "action": "Fill range",
+    "keys": ["Cmd+Enter"],
+    "description": "Fill the selected range.",
+    "tags": ["fill", "range", "cells"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Cells",
+    "action": "Fill down",
+    "keys": ["Cmd+D"],
+    "description": "Fill selected cells downward.",
+    "tags": ["fill", "down", "cells"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Cells",
+    "action": "Fill right",
+    "keys": ["Cmd+R"],
+    "description": "Fill selected cells to the right.",
+    "tags": ["fill", "right", "cells"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Formatting",
+    "action": "Bold",
+    "keys": ["Cmd+B", "Cmd+2", "Ctrl+2"],
+    "description": "Apply bold formatting.",
+    "tags": ["bold", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Formatting",
+    "action": "Italic",
+    "keys": ["Cmd+I", "Cmd+3", "Ctrl+3"],
+    "description": "Apply italic formatting.",
+    "tags": ["italic", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Formatting",
+    "action": "Underline",
+    "keys": ["Cmd+U", "Cmd+4", "Ctrl+4"],
+    "description": "Underline selected content.",
+    "tags": ["underline", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Formatting",
+    "action": "Strikethrough",
+    "keys": ["Cmd+Shift+X", "Cmd+5", "Ctrl+5"],
+    "description": "Apply strikethrough formatting.",
+    "tags": ["strikethrough", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Formatting",
+    "action": "Clear formatting",
+    "keys": ["Cmd+Backslash"],
+    "description": "Remove formatting from selected cells.",
+    "tags": ["clear formatting", "format", "cells"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  },
+  {
+    "app": "google-sheets",
+    "category": "Comments",
+    "action": "Insert or edit comment",
+    "keys": ["Cmd+Option+M"],
+    "description": "Insert or edit a comment.",
+    "tags": ["comment", "note", "collaboration"],
+    "sourceUrl": "https://support.google.com/docs/answer/181110"
+  }
+]

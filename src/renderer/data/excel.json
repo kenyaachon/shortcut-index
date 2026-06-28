@@ -1,0 +1,227 @@
+[
+  {
+    "app": "excel",
+    "category": "Common",
+    "action": "Open workbook",
+    "keys": ["Cmd+O", "Ctrl+O"],
+    "description": "Open an existing workbook.",
+    "tags": ["open", "file", "workbook"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Common",
+    "action": "Save workbook",
+    "keys": ["Cmd+S", "Ctrl+S"],
+    "description": "Save the current workbook.",
+    "tags": ["save", "file", "workbook"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Common",
+    "action": "Print workbook",
+    "keys": ["Cmd+P", "Ctrl+P"],
+    "description": "Open print options for the workbook.",
+    "tags": ["print", "file", "workbook"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Common",
+    "action": "New blank workbook",
+    "keys": ["Cmd+N", "Ctrl+N"],
+    "description": "Create a new blank workbook.",
+    "tags": ["new", "file", "workbook"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Common",
+    "action": "Save As",
+    "keys": ["Cmd+Shift+S", "F12"],
+    "description": "Open the Save As dialog.",
+    "tags": ["save as", "file", "export"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Editing",
+    "action": "Cut selection",
+    "keys": ["Cmd+X", "Ctrl+X"],
+    "description": "Cut the current selection.",
+    "tags": ["cut", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Editing",
+    "action": "Copy selection",
+    "keys": ["Cmd+C", "Ctrl+C"],
+    "description": "Copy the current selection.",
+    "tags": ["copy", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Editing",
+    "action": "Paste selection",
+    "keys": ["Cmd+V", "Ctrl+V"],
+    "description": "Paste clipboard contents into the sheet.",
+    "tags": ["paste", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Editing",
+    "action": "Paste Special",
+    "keys": ["Cmd+Ctrl+V", "Ctrl+Option+V", "Cmd+Option+V"],
+    "description": "Open Paste Special options.",
+    "tags": ["paste special", "clipboard", "values", "format"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Editing",
+    "action": "Undo action",
+    "keys": ["Cmd+Z", "Ctrl+Z"],
+    "description": "Undo the previous action.",
+    "tags": ["undo", "edit", "history"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Editing",
+    "action": "Redo action",
+    "keys": ["Cmd+Y", "Ctrl+Y", "Cmd+Shift+Z"],
+    "description": "Redo the previous undone action.",
+    "tags": ["redo", "edit", "history"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Formatting",
+    "action": "Bold",
+    "keys": ["Cmd+B", "Ctrl+B"],
+    "description": "Apply bold formatting to selected content.",
+    "tags": ["bold", "format", "text"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Formatting",
+    "action": "Italic",
+    "keys": ["Cmd+I", "Ctrl+I"],
+    "description": "Apply italic formatting to selected content.",
+    "tags": ["italic", "format", "text"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Formatting",
+    "action": "Underline",
+    "keys": ["Cmd+U"],
+    "description": "Underline selected content.",
+    "tags": ["underline", "format", "text"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Formatting",
+    "action": "Format Cells",
+    "keys": ["Cmd+1", "Ctrl+1"],
+    "description": "Open the Format Cells dialog.",
+    "tags": ["format cells", "number", "alignment", "cell"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Cells",
+    "action": "Fill down",
+    "keys": ["Cmd+D", "Ctrl+D"],
+    "description": "Fill selected cells downward.",
+    "tags": ["fill", "down", "cells"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Cells",
+    "action": "Fill right",
+    "keys": ["Cmd+R", "Ctrl+R"],
+    "description": "Fill selected cells to the right.",
+    "tags": ["fill", "right", "cells"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Cells",
+    "action": "Insert cells",
+    "keys": ["Ctrl+Shift+="],
+    "description": "Insert cells into the sheet.",
+    "tags": ["insert", "cells", "sheet"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Cells",
+    "action": "Delete cells",
+    "keys": ["Cmd+-", "Ctrl+-"],
+    "description": "Delete selected cells.",
+    "tags": ["delete", "cells", "sheet"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Cells",
+    "action": "Start a new line in a cell",
+    "keys": ["Option+Return", "Ctrl+Option+Return"],
+    "description": "Insert a line break while editing a cell.",
+    "tags": ["cell", "line break", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Navigation",
+    "action": "Go To",
+    "keys": ["Ctrl+G", "F5"],
+    "description": "Open the Go To dialog.",
+    "tags": ["go to", "navigation", "cell"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Navigation",
+    "action": "Find",
+    "keys": ["Cmd+F", "Ctrl+F", "Shift+F5"],
+    "description": "Search in the sheet or workbook.",
+    "tags": ["find", "search", "navigation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Navigation",
+    "action": "Replace",
+    "keys": ["Ctrl+H", "Cmd+Shift+H"],
+    "description": "Open the Replace dialog.",
+    "tags": ["replace", "find", "search"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Selection",
+    "action": "Select all",
+    "keys": ["Cmd+A", "Cmd+Shift+Space"],
+    "description": "Select all cells or content.",
+    "tags": ["select all", "selection", "cells"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  },
+  {
+    "app": "excel",
+    "category": "Data",
+    "action": "Add or remove filter",
+    "keys": ["Cmd+Shift+F", "Ctrl+Shift+L"],
+    "description": "Toggle filtering for the selected range.",
+    "tags": ["filter", "data", "table"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f"
+  }
+]

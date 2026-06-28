@@ -1,4 +1,21 @@
-export const shortcutAppIds = ["macos", "chrome", "zsh", "ghostty", "vscode", "claude", "codex"] as const;
+export const shortcutAppIds = [
+  "macos",
+  "chrome",
+  "zsh",
+  "ghostty",
+  "vscode",
+  "claude",
+  "codex",
+  "excel",
+  "word",
+  "powerpoint",
+  "google-docs",
+  "google-sheets",
+  "google-slides",
+  "numbers",
+  "pages",
+  "keynote"
+] as const;
 
 export type ShortcutAppId = (typeof shortcutAppIds)[number];
 

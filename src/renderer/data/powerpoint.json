@@ -1,0 +1,227 @@
+[
+  {
+    "app": "powerpoint",
+    "category": "Common",
+    "action": "New presentation",
+    "keys": ["Cmd+N"],
+    "description": "Create a new presentation.",
+    "tags": ["new", "file", "presentation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Common",
+    "action": "Open presentation",
+    "keys": ["Cmd+O"],
+    "description": "Open an existing presentation.",
+    "tags": ["open", "file", "presentation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Common",
+    "action": "Save presentation",
+    "keys": ["Cmd+S"],
+    "description": "Save the current presentation.",
+    "tags": ["save", "file", "presentation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Common",
+    "action": "Save As",
+    "keys": ["Cmd+Shift+S"],
+    "description": "Save the presentation with a new name, location, or format.",
+    "tags": ["save as", "file", "export"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Common",
+    "action": "Print presentation",
+    "keys": ["Cmd+P"],
+    "description": "Open print options for the presentation.",
+    "tags": ["print", "file", "presentation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Slides",
+    "action": "Add new slide",
+    "keys": ["Cmd+Shift+N"],
+    "description": "Insert a new slide.",
+    "tags": ["new slide", "insert", "slide"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Slides",
+    "action": "Duplicate selected slide",
+    "keys": ["Cmd+Shift+D"],
+    "description": "Make a copy of the selected slide.",
+    "tags": ["duplicate", "copy", "slide"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Slides",
+    "action": "Next slide",
+    "keys": ["PageDown"],
+    "description": "Move to the next slide.",
+    "tags": ["next", "navigation", "slide"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Slides",
+    "action": "Previous slide",
+    "keys": ["PageUp"],
+    "description": "Move to the previous slide.",
+    "tags": ["previous", "navigation", "slide"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Slideshow",
+    "action": "Start slideshow",
+    "keys": ["Cmd+Shift+Return"],
+    "description": "Start presenting the slideshow.",
+    "tags": ["present", "slideshow", "play"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Slideshow",
+    "action": "End slideshow",
+    "keys": ["Esc"],
+    "description": "Exit the running slideshow.",
+    "tags": ["present", "slideshow", "exit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Editing",
+    "action": "Cut",
+    "keys": ["Cmd+X"],
+    "description": "Cut selected text, object, or slide.",
+    "tags": ["cut", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Editing",
+    "action": "Copy",
+    "keys": ["Cmd+C"],
+    "description": "Copy selected text, object, or slide.",
+    "tags": ["copy", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Editing",
+    "action": "Paste",
+    "keys": ["Cmd+V"],
+    "description": "Paste cut or copied content.",
+    "tags": ["paste", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Editing",
+    "action": "Undo",
+    "keys": ["Cmd+Z"],
+    "description": "Undo the last action.",
+    "tags": ["undo", "edit", "history"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Editing",
+    "action": "Redo",
+    "keys": ["Cmd+Y"],
+    "description": "Redo the last action.",
+    "tags": ["redo", "edit", "history"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Editing",
+    "action": "Insert hyperlink",
+    "keys": ["Cmd+K"],
+    "description": "Insert or edit a hyperlink.",
+    "tags": ["link", "hyperlink", "insert"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Editing",
+    "action": "Insert comment",
+    "keys": ["Cmd+Shift+M"],
+    "description": "Insert a comment.",
+    "tags": ["comment", "review", "collaboration"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Formatting",
+    "action": "Bold",
+    "keys": ["Cmd+B"],
+    "description": "Apply bold formatting to selected text.",
+    "tags": ["bold", "format", "text"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Formatting",
+    "action": "Font dialog",
+    "keys": ["Cmd+T"],
+    "description": "Open the Font dialog.",
+    "tags": ["font", "format", "text"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Formatting",
+    "action": "Copy formatting",
+    "keys": ["Cmd+Shift+C"],
+    "description": "Copy formatting from selected text or object.",
+    "tags": ["copy format", "format", "style"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Formatting",
+    "action": "Paste formatting",
+    "keys": ["Cmd+Shift+V"],
+    "description": "Apply copied formatting to selected text or object.",
+    "tags": ["paste format", "format", "style"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Objects",
+    "action": "Group objects",
+    "keys": ["Cmd+Option+G"],
+    "description": "Group the selected objects.",
+    "tags": ["group", "objects", "arrange"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "Objects",
+    "action": "Ungroup objects",
+    "keys": ["Cmd+Option+Shift+G"],
+    "description": "Ungroup the selected objects.",
+    "tags": ["ungroup", "objects", "arrange"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  },
+  {
+    "app": "powerpoint",
+    "category": "View",
+    "action": "Zoom to fit",
+    "keys": ["Cmd+Option+O"],
+    "description": "Fit the slide to the current window.",
+    "tags": ["zoom", "fit", "view"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/use-keyboard-shortcuts-to-create-powerpoint-presentations-ebb3d20e-dcd4-444f-a38e-bb5c5ed180f4"
+  }
+]

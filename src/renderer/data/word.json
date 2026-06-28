@@ -1,0 +1,227 @@
+[
+  {
+    "app": "word",
+    "category": "Common",
+    "action": "Save As",
+    "keys": ["Cmd+Shift+S"],
+    "description": "Open the Save As dialog for the document.",
+    "tags": ["save as", "file", "document"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Common",
+    "action": "Print document",
+    "keys": ["Cmd+P"],
+    "description": "Open print options for the document.",
+    "tags": ["print", "file", "document"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Common",
+    "action": "Close document",
+    "keys": ["Cmd+F4"],
+    "description": "Close the current document.",
+    "tags": ["close", "file", "document"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Editing",
+    "action": "Undo",
+    "keys": ["Cmd+Z", "F1"],
+    "description": "Undo the previous action.",
+    "tags": ["undo", "edit", "history"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Editing",
+    "action": "Redo",
+    "keys": ["Cmd+Y"],
+    "description": "Redo the previous undone action.",
+    "tags": ["redo", "edit", "history"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Editing",
+    "action": "Cut",
+    "keys": ["Cmd+X", "F2"],
+    "description": "Cut selected content to the clipboard.",
+    "tags": ["cut", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Editing",
+    "action": "Copy",
+    "keys": ["Cmd+C", "F3"],
+    "description": "Copy selected content to the clipboard.",
+    "tags": ["copy", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Editing",
+    "action": "Paste",
+    "keys": ["Cmd+V", "F4"],
+    "description": "Paste clipboard content into the document.",
+    "tags": ["paste", "clipboard", "edit"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Editing",
+    "action": "Paste text only",
+    "keys": ["Cmd+Shift+V"],
+    "description": "Paste clipboard text without preserving formatting.",
+    "tags": ["paste", "plain text", "format"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Editing",
+    "action": "Paste Special",
+    "keys": ["Cmd+Ctrl+V"],
+    "description": "Open Paste Special options.",
+    "tags": ["paste special", "clipboard", "format"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Formatting",
+    "action": "Copy text formatting",
+    "keys": ["Cmd+Option+C"],
+    "description": "Copy formatting from selected text.",
+    "tags": ["copy format", "style", "format"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Formatting",
+    "action": "Paste text formatting",
+    "keys": ["Cmd+Option+V"],
+    "description": "Apply copied formatting to selected text.",
+    "tags": ["paste format", "style", "format"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Formatting",
+    "action": "Center paragraph",
+    "keys": ["Cmd+E"],
+    "description": "Center-align the current paragraph.",
+    "tags": ["center", "align", "paragraph"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Formatting",
+    "action": "Zoom in",
+    "keys": ["Cmd+Plus"],
+    "description": "Increase document zoom.",
+    "tags": ["zoom", "view", "increase"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Formatting",
+    "action": "Zoom out",
+    "keys": ["Cmd+-"],
+    "description": "Decrease document zoom.",
+    "tags": ["zoom", "view", "decrease"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Formatting",
+    "action": "Reset zoom to 100%",
+    "keys": ["Cmd+0"],
+    "description": "Return the document to 100 percent zoom.",
+    "tags": ["zoom", "view", "100"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Navigation",
+    "action": "Find text",
+    "keys": ["Cmd+F"],
+    "description": "Move focus to document search.",
+    "tags": ["find", "search", "navigation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Navigation",
+    "action": "Find and replace",
+    "keys": ["Ctrl+H"],
+    "description": "Open the Find and Replace pane.",
+    "tags": ["replace", "find", "search"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Navigation",
+    "action": "Go To",
+    "keys": ["Cmd+Option+G", "F5"],
+    "description": "Open the Go To dialog.",
+    "tags": ["go to", "navigation", "page"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Navigation",
+    "action": "Move one word left",
+    "keys": ["Option+Left"],
+    "description": "Move the cursor one word to the left.",
+    "tags": ["cursor", "word", "navigation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Navigation",
+    "action": "Move one word right",
+    "keys": ["Option+Right"],
+    "description": "Move the cursor one word to the right.",
+    "tags": ["cursor", "word", "navigation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Navigation",
+    "action": "Move to beginning of line",
+    "keys": ["Cmd+Left", "Home"],
+    "description": "Move the cursor to the beginning of the current line.",
+    "tags": ["cursor", "line", "navigation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Navigation",
+    "action": "Move to end of line",
+    "keys": ["Cmd+Right", "End"],
+    "description": "Move the cursor to the end of the current line.",
+    "tags": ["cursor", "line", "navigation"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Selection",
+    "action": "Select all document content",
+    "keys": ["Cmd+A"],
+    "description": "Select all content in the document.",
+    "tags": ["select all", "selection", "document"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  },
+  {
+    "app": "word",
+    "category": "Review",
+    "action": "Spelling and Grammar",
+    "keys": ["Cmd+Option+L", "F7"],
+    "description": "Open spelling and grammar tools.",
+    "tags": ["spellcheck", "grammar", "review"],
+    "sourceUrl": "https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-word-95ef89dd-7142-4b50-afb2-f762f663ceb2"
+  }
+]

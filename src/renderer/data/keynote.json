@@ -1,0 +1,227 @@
+[
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Create new slide",
+    "keys": ["Return", "Shift+Cmd+N"],
+    "description": "Create a new slide at the same level as the selected slide.",
+    "tags": ["new slide", "insert", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Duplicate slide",
+    "keys": ["Cmd+D"],
+    "description": "Duplicate the selected slide.",
+    "tags": ["duplicate", "copy", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Delete selected slides",
+    "keys": ["Delete"],
+    "description": "Delete selected slides.",
+    "tags": ["delete", "slide", "navigator"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Move to next slide",
+    "keys": ["Down"],
+    "description": "Move to the next slide in Navigator view.",
+    "tags": ["next", "navigation", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Move to previous slide",
+    "keys": ["Up"],
+    "description": "Move to the previous slide in Navigator view.",
+    "tags": ["previous", "navigation", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Skip or unskip slide",
+    "keys": ["Shift+Cmd+H"],
+    "description": "Toggle whether the selected slide is skipped during playback.",
+    "tags": ["skip", "hide", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Select first slide",
+    "keys": ["Cmd+Up"],
+    "description": "Select the first slide in Light Table view.",
+    "tags": ["first", "select", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Slides",
+    "action": "Select last slide",
+    "keys": ["Cmd+Down"],
+    "description": "Select the last slide in Light Table view.",
+    "tags": ["last", "select", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "Play presentation",
+    "keys": ["Option+Cmd+P"],
+    "description": "Start playing the presentation.",
+    "tags": ["present", "slideshow", "play"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "Advance to next slide or build",
+    "keys": ["Right", "Down"],
+    "description": "Advance to the next slide or build while presenting.",
+    "tags": ["next", "presentation", "build"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "Go to previous slide",
+    "keys": ["Left", "Up"],
+    "description": "Return to the previous slide while presenting.",
+    "tags": ["previous", "presentation", "slide"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "Show presenter notes",
+    "keys": ["Shift+Cmd+P"],
+    "description": "Show or hide presenter notes.",
+    "tags": ["presenter notes", "presentation", "view"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "Pause presentation",
+    "keys": ["F"],
+    "description": "Pause the running presentation.",
+    "tags": ["pause", "presentation", "slideshow"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "Black screen",
+    "keys": ["B"],
+    "description": "Pause and show a black screen.",
+    "tags": ["black screen", "pause", "presentation"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "White screen",
+    "keys": ["W"],
+    "description": "Pause and show a white screen.",
+    "tags": ["white screen", "pause", "presentation"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Presentation",
+    "action": "Quit presentation mode",
+    "keys": ["Esc", "Q"],
+    "description": "Exit presentation mode.",
+    "tags": ["quit", "exit", "presentation"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Objects",
+    "action": "Copy graphic style",
+    "keys": ["Option+Cmd+C"],
+    "description": "Copy the selected object's graphic style.",
+    "tags": ["copy style", "object", "format"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Objects",
+    "action": "Paste graphic style",
+    "keys": ["Option+Cmd+V"],
+    "description": "Apply a copied graphic style.",
+    "tags": ["paste style", "object", "format"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Objects",
+    "action": "Send object to back",
+    "keys": ["Shift+Cmd+B"],
+    "description": "Send the selected object behind other objects.",
+    "tags": ["send back", "arrange", "object"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Objects",
+    "action": "Bring object to front",
+    "keys": ["Shift+Cmd+F"],
+    "description": "Bring the selected object in front of other objects.",
+    "tags": ["bring front", "arrange", "object"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Objects",
+    "action": "Group objects",
+    "keys": ["Option+Cmd+G"],
+    "description": "Group selected objects.",
+    "tags": ["group", "objects", "arrange"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Objects",
+    "action": "Ungroup objects",
+    "keys": ["Option+Shift+Cmd+G"],
+    "description": "Ungroup selected objects.",
+    "tags": ["ungroup", "objects", "arrange"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Tables",
+    "action": "Insert equation",
+    "keys": ["Option+Cmd+E"],
+    "description": "Insert an equation.",
+    "tags": ["equation", "insert", "table"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Tables",
+    "action": "Add row above",
+    "keys": ["Option+Up"],
+    "description": "Add a row above selected table cells.",
+    "tags": ["row", "insert", "table"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  },
+  {
+    "app": "keynote",
+    "category": "Tables",
+    "action": "Add column right",
+    "keys": ["Option+Right"],
+    "description": "Add a column to the right of selected cells.",
+    "tags": ["column", "insert", "table"],
+    "sourceUrl": "https://support.apple.com/guide/keynote/keyboard-shortcuts-tanfde4a3e6d/mac"
+  }
+]

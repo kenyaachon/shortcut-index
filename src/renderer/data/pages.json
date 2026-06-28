@@ -1,0 +1,227 @@
+[
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Find",
+    "keys": ["Cmd+F"],
+    "description": "Find content in the document.",
+    "tags": ["find", "search", "document"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Find next",
+    "keys": ["Cmd+G"],
+    "description": "Move to the next find result.",
+    "tags": ["find next", "search", "navigation"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Find previous",
+    "keys": ["Shift+Cmd+G"],
+    "description": "Move to the previous find result.",
+    "tags": ["find previous", "search", "navigation"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Check spelling and grammar",
+    "keys": ["Cmd+;"],
+    "description": "Check spelling and grammar.",
+    "tags": ["spelling", "grammar", "review"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Highlight text",
+    "keys": ["Shift+Cmd+H"],
+    "description": "Highlight the selected text.",
+    "tags": ["highlight", "review", "text"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "New comment",
+    "keys": ["Shift+Cmd+K"],
+    "description": "Open a new comment for the selection.",
+    "tags": ["comment", "review", "collaboration"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Show word count",
+    "keys": ["Shift+Cmd+W"],
+    "description": "Show or hide word count.",
+    "tags": ["word count", "view", "review"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Accept change",
+    "keys": ["Option+Cmd+A"],
+    "description": "Accept a tracked change.",
+    "tags": ["track changes", "accept", "review"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Find & Review",
+    "action": "Reject change",
+    "keys": ["Option+Cmd+R"],
+    "description": "Reject a tracked change.",
+    "tags": ["track changes", "reject", "review"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Select all objects",
+    "keys": ["Cmd+A"],
+    "description": "Select all objects in a page layout context.",
+    "tags": ["select all", "objects", "layout"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Deselect all objects",
+    "keys": ["Shift+Cmd+A"],
+    "description": "Deselect all selected objects.",
+    "tags": ["deselect", "objects", "selection"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Copy graphic style",
+    "keys": ["Option+Cmd+C"],
+    "description": "Copy the selected object's graphic style.",
+    "tags": ["copy style", "object", "format"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Paste graphic style",
+    "keys": ["Option+Cmd+V"],
+    "description": "Apply a copied graphic style.",
+    "tags": ["paste style", "object", "format"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Send object to back",
+    "keys": ["Shift+Cmd+B"],
+    "description": "Send the selected object behind other objects.",
+    "tags": ["send back", "arrange", "object"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Bring object to front",
+    "keys": ["Shift+Cmd+F"],
+    "description": "Bring the selected object in front of other objects.",
+    "tags": ["bring front", "arrange", "object"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Group objects",
+    "keys": ["Option+Cmd+G"],
+    "description": "Group selected objects.",
+    "tags": ["group", "objects", "arrange"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Ungroup objects",
+    "keys": ["Option+Shift+Cmd+G"],
+    "description": "Ungroup selected objects.",
+    "tags": ["ungroup", "objects", "arrange"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Lock objects",
+    "keys": ["Cmd+L"],
+    "description": "Lock selected objects.",
+    "tags": ["lock", "object", "arrange"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Objects",
+    "action": "Unlock objects",
+    "keys": ["Option+Cmd+L"],
+    "description": "Unlock selected objects.",
+    "tags": ["unlock", "object", "arrange"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Tables",
+    "action": "Add row above",
+    "keys": ["Option+Up"],
+    "description": "Add a row above selected table cells.",
+    "tags": ["row", "insert", "table"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Tables",
+    "action": "Add row below",
+    "keys": ["Option+Down"],
+    "description": "Add a row below selected table cells.",
+    "tags": ["row", "insert", "table"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Tables",
+    "action": "Add column right",
+    "keys": ["Option+Right"],
+    "description": "Add a column to the right of selected cells.",
+    "tags": ["column", "insert", "table"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Tables",
+    "action": "Add column left",
+    "keys": ["Option+Left"],
+    "description": "Add a column to the left of selected cells.",
+    "tags": ["column", "insert", "table"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Tables",
+    "action": "Merge selected cells",
+    "keys": ["Ctrl+Cmd+M"],
+    "description": "Merge selected table cells.",
+    "tags": ["merge", "cells", "table"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  },
+  {
+    "app": "pages",
+    "category": "Tables",
+    "action": "Unmerge selected cells",
+    "keys": ["Ctrl+Shift+Cmd+M"],
+    "description": "Unmerge selected table cells.",
+    "tags": ["unmerge", "cells", "table"],
+    "sourceUrl": "https://support.apple.com/guide/pages/keyboard-shortcuts-tanc0ffef022/mac"
+  }
+]

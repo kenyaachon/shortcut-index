@@ -117,15 +117,15 @@ Generated from `src/shared/appCatalog.ts`. The catalog currently contains 141 ap
 | Project Management | monday.com | `monday` | No |
 | Project Management | Basecamp | `basecamp` | No |
 | Project Management | Airtable | `airtable` | No |
-| Office | Excel | `excel` | No |
-| Office | Word | `word` | No |
-| Office | PowerPoint | `powerpoint` | No |
-| Office | Google Docs | `google-docs` | No |
-| Office | Google Sheets | `google-sheets` | No |
-| Office | Google Slides | `google-slides` | No |
-| Office | Numbers | `numbers` | No |
-| Office | Pages | `pages` | No |
-| Office | Keynote | `keynote` | No |
+| Office | Excel | `excel` | Yes |
+| Office | Word | `word` | Yes |
+| Office | PowerPoint | `powerpoint` | Yes |
+| Office | Google Docs | `google-docs` | Yes |
+| Office | Google Sheets | `google-sheets` | Yes |
+| Office | Google Slides | `google-slides` | Yes |
+| Office | Numbers | `numbers` | Yes |
+| Office | Pages | `pages` | Yes |
+| Office | Keynote | `keynote` | Yes |
 | Utilities | Preview | `preview` | No |
 | Utilities | Finder | `finder` | No |
 | Utilities | Raycast | `raycast` | No |

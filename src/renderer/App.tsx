@@ -7,10 +7,13 @@ import {
   Code2,
   Copy,
   ExternalLink,
+  FileSpreadsheet,
+  FileText,
   Keyboard,
   Laptop,
   Monitor,
   Moon,
+  Presentation,
   Search,
   Settings,
   SquareTerminal,
@@ -84,6 +87,18 @@ function AppIcon({ app }: { app: AppId }) {
       return <Bot {...props} />;
     case "codex":
       return <SquareTerminal {...props} />;
+    case "excel":
+    case "google-sheets":
+    case "numbers":
+      return <FileSpreadsheet {...props} />;
+    case "word":
+    case "google-docs":
+    case "pages":
+      return <FileText {...props} />;
+    case "powerpoint":
+    case "google-slides":
+    case "keynote":
+      return <Presentation {...props} />;
     default:
       return <Monitor {...props} />;
   }
@@ -104,6 +119,16 @@ function groupByCategory(entries: ShortcutEntry[], activeApp: AppId): Array<[str
 
 function copyLabel(entry: ShortcutEntry): string {
   return `${appLabels[entry.app]}: ${entry.action} - ${entry.keys.join(" / ")}`;
+}
+
+function emptyCounts(all: number): Record<AppId, number> {
+  const counts = { all } as Record<AppId, number>;
+
+  for (const app of appOrder) {
+    counts[app] = 0;
+  }
+
+  return counts;
 }
 
 function Sidebar({
@@ -307,6 +332,27 @@ function SettingsPanel({
 
       <div className="settings-section">
         <div className="setting-copy">
+          <h3>Theme</h3>
+          <p>Choose the renderer color scheme.</p>
+        </div>
+        <div className="segmented" role="group">
+          {themeOptions.map((option) => (
+            <button
+              aria-pressed={payload.settings.theme === option.value}
+              className={payload.settings.theme === option.value ? "segment active" : "segment"}
+              key={option.value}
+              onClick={() => onUpdate({ theme: option.value })}
+              type="button"
+            >
+              {option.icon}
+              {option.label}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="settings-section">
+        <div className="setting-copy">
           <h3>Apps</h3>
           <p>Choose which starter apps appear in search and the sidebar.</p>
         </div>
@@ -339,27 +385,6 @@ function SettingsPanel({
               </label>
             );
           })}
-        </div>
-      </div>
-
-      <div className="settings-section">
-        <div className="setting-copy">
-          <h3>Theme</h3>
-          <p>Choose the renderer color scheme.</p>
-        </div>
-        <div className="segmented" role="group">
-          {themeOptions.map((option) => (
-            <button
-              aria-pressed={payload.settings.theme === option.value}
-              className={payload.settings.theme === option.value ? "segment active" : "segment"}
-              key={option.value}
-              onClick={() => onUpdate({ theme: option.value })}
-              type="button"
-            >
-              {option.icon}
-              {option.label}
-            </button>
-          ))}
         </div>
       </div>
     </section>
@@ -411,16 +436,7 @@ export function App() {
   }, []);
 
   const allCounts = useMemo(() => {
-    const next: Record<AppId, number> = {
-      all: shortcuts.length,
-      macos: 0,
-      chrome: 0,
-      zsh: 0,
-      ghostty: 0,
-      vscode: 0,
-      claude: 0,
-      codex: 0
-    };
+    const next = emptyCounts(shortcuts.length);
 
     for (const entry of shortcuts) {
       next[entry.app] += 1;
@@ -436,16 +452,7 @@ export function App() {
   }, [enabledAppSet]);
 
   const counts = useMemo(() => {
-    const next: Record<AppId, number> = {
-      all: enabledShortcuts.length,
-      macos: 0,
-      chrome: 0,
-      zsh: 0,
-      ghostty: 0,
-      vscode: 0,
-      claude: 0,
-      codex: 0
-    };
+    const next = emptyCounts(enabledShortcuts.length);
 
     for (const entry of enabledShortcuts) {
       next[entry.app] += 1;

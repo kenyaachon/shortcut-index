@@ -1,0 +1,227 @@
+[
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "New slide",
+    "keys": ["Ctrl+M"],
+    "description": "Create a new slide.",
+    "tags": ["new slide", "insert", "slide"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Duplicate slide",
+    "keys": ["Cmd+D"],
+    "description": "Duplicate the selected slide.",
+    "tags": ["duplicate", "copy", "slide"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Undo",
+    "keys": ["Cmd+Z"],
+    "description": "Undo the previous edit.",
+    "tags": ["undo", "edit", "history"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Redo",
+    "keys": ["Cmd+Y", "Cmd+Shift+Z"],
+    "description": "Redo the previous undone edit.",
+    "tags": ["redo", "edit", "history"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Copy",
+    "keys": ["Cmd+C"],
+    "description": "Copy selected content.",
+    "tags": ["copy", "clipboard", "edit"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Cut",
+    "keys": ["Cmd+X"],
+    "description": "Cut selected content.",
+    "tags": ["cut", "clipboard", "edit"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Paste",
+    "keys": ["Cmd+V"],
+    "description": "Paste clipboard content.",
+    "tags": ["paste", "clipboard", "edit"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Insert or edit link",
+    "keys": ["Cmd+K"],
+    "description": "Create or edit a link.",
+    "tags": ["link", "hyperlink", "insert"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Find",
+    "keys": ["Cmd+F"],
+    "description": "Find content in the presentation.",
+    "tags": ["find", "search", "presentation"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Find and replace",
+    "keys": ["Cmd+Shift+H"],
+    "description": "Open find and replace.",
+    "tags": ["replace", "find", "search"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Common",
+    "action": "Show keyboard shortcuts",
+    "keys": ["Cmd+/"],
+    "description": "Open the keyboard shortcuts list.",
+    "tags": ["shortcuts", "help", "reference"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Filmstrip",
+    "action": "Move to previous slide",
+    "keys": ["Up"],
+    "description": "Move focus to the previous slide in the filmstrip.",
+    "tags": ["previous", "filmstrip", "slide"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Filmstrip",
+    "action": "Move to next slide",
+    "keys": ["Down"],
+    "description": "Move focus to the next slide in the filmstrip.",
+    "tags": ["next", "filmstrip", "slide"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Filmstrip",
+    "action": "Move slide up",
+    "keys": ["Cmd+Up"],
+    "description": "Move the selected slide up.",
+    "tags": ["move", "reorder", "slide"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Filmstrip",
+    "action": "Move slide down",
+    "keys": ["Cmd+Down"],
+    "description": "Move the selected slide down.",
+    "tags": ["move", "reorder", "slide"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Navigation",
+    "action": "Zoom in",
+    "keys": ["Cmd+Plus"],
+    "description": "Increase zoom.",
+    "tags": ["zoom", "view", "increase"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Navigation",
+    "action": "Zoom out",
+    "keys": ["Cmd+-"],
+    "description": "Decrease zoom.",
+    "tags": ["zoom", "view", "decrease"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Navigation",
+    "action": "Present slides",
+    "keys": ["Cmd+Enter"],
+    "description": "Start presenting slides.",
+    "tags": ["present", "slideshow", "play"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Navigation",
+    "action": "Present from beginning",
+    "keys": ["Cmd+Shift+Enter"],
+    "description": "Present slides from the beginning.",
+    "tags": ["present", "slideshow", "start"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Text",
+    "action": "Bold",
+    "keys": ["Cmd+B"],
+    "description": "Apply bold formatting.",
+    "tags": ["bold", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Text",
+    "action": "Italic",
+    "keys": ["Cmd+I"],
+    "description": "Apply italic formatting.",
+    "tags": ["italic", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Text",
+    "action": "Underline",
+    "keys": ["Cmd+U"],
+    "description": "Underline selected text.",
+    "tags": ["underline", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Text",
+    "action": "Clear formatting",
+    "keys": ["Cmd+Backslash"],
+    "description": "Remove manual formatting from selected text.",
+    "tags": ["clear formatting", "format", "text"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Objects",
+    "action": "Group objects",
+    "keys": ["Cmd+Option+G"],
+    "description": "Group the selected objects.",
+    "tags": ["group", "objects", "arrange"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  },
+  {
+    "app": "google-slides",
+    "category": "Objects",
+    "action": "Ungroup objects",
+    "keys": ["Cmd+Option+Shift+G"],
+    "description": "Ungroup the selected objects.",
+    "tags": ["ungroup", "objects", "arrange"],
+    "sourceUrl": "https://support.google.com/docs/answer/1696717"
+  }
+]
